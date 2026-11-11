@@ -34,11 +34,37 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--text-color);
-  /* TODO: substituir pelos arquivos de fundo do Figma (desktop e mobile) */
-  background: linear-gradient(135deg, #4c1d95 0%, #7c3aed 50%, #db2777 100%);
+  background-color: #4c1d95; /* cor de fallback enquanto a imagem carrega */
+  background-image: url('../assets/bg-dark-mobile.svg'); /* mobile-first */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
+/* Desktop: imagem de fundo do tema escuro */
+@media (min-width: 768px) {
+  body {
+    background-image: url('../assets/bg-dark-desktop.svg');
+  }
+}
+
+/* Tema claro: imagem de fundo mobile */
 [data-theme='light'] body {
-  background: linear-gradient(135deg, #ede9fe 0%, #fbcfe8 100%);
+  background-color: #ede9fe;
+  background-image: url('../assets/bg-light-mobile.svg');
+}
+
+/* Tema claro: imagem de fundo desktop */
+@media (min-width: 768px) {
+  [data-theme='light'] body {
+    background-image: url('../assets/bg-light-desktop.svg');
+  }
+}
+
+/* O #root é o container flex: o .app fica centralizado vertical e horizontalmente */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

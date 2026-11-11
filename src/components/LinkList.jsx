@@ -7,7 +7,7 @@ function LinkList({ links }) {
     <nav className="link-list" aria-label="Links principais">
       <ul className="link-list__items">
         {links.map((link) => (
-          <li key={link.url}>
+          <li key={link.text}>
             <LinkButton text={link.text} url={link.url} />
           </li>
         ))}

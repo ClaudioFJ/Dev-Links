@@ -5,8 +5,8 @@
   gap: 24px;
   width: 100%;
   max-width: 540px;
-  min-height: 100vh;
-  margin: 0 auto;
+  /* margin: auto centraliza na vertical (body é flex) e na horizontal */
+  margin: auto;
   padding: 48px 24px; /* mobile-first: 24px de margem lateral */
   box-sizing: border-box;
 }

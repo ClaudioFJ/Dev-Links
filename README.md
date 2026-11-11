@@ -1,16 +1,57 @@
-# React + Vite
+# DevLinks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Página de links pessoais (estilo "link na bio") com avatar, @usuário, tema claro/escuro, botões de link e redes sociais.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** + **Vite**
+- **CSS** com variáveis (tokens) e layout responsivo (mobile-first)
+- **Inter** (Google Fonts)
+- Ícones SVG inline (lua/sol e redes sociais)
+- **OpenCode** com `AGENTS.md`
+- **Context7 MCP** para consultar a documentação oficial do React
+- **Playwright MCP** para validação e screenshots
 
-## React Compiler
+## Instalação e execução
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Abra [http://localhost:5173](http://localhost:5173).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+- Tema claro/escuro com troca pelo switch, salvo no `localStorage`.
+- 4 botões de link e 4 redes sociais gerados com `map()`.
+- Layout responsivo: mobile (360px) e desktop (1440px), sem rolagem horizontal.
+- HTML semântico e acessível (`alt`, `aria-label`, `aria-pressed`).
+
+## Capturas de tela
+
+### Desktop
+
+| Escuro | Claro |
+| --- | --- |
+| ![Desktop escuro](docs/screenshots/desktop-dark.png) | ![Desktop claro](docs/screenshots/desktop-light.png) |
+
+### Mobile
+
+| Escuro | Claro |
+| --- | --- |
+| ![Mobile escuro](docs/screenshots/mobile-dark.png) | ![Mobile claro](docs/screenshots/mobile-light.png) |
+
+## Uso de IA
+
+O projeto foi desenvolvido com o **OpenCode**, seguindo as regras do `AGENTS.md`. O **Context7 MCP** foi usado para consultar a documentação oficial do React (`useState`, `useEffect`, Props) antes de implementar, e o **Playwright MCP** para validar layout, links, troca de tema e persistência.
+
+### Context7 — documentação consultada
+
+![Context7 useState](docs/screenshots/context7-usestate.png)
+![Context7 useEffect](docs/screenshots/context7-useeffect.png)
+![Context7 Props](docs/screenshots/context7-props.png)
+
+### Playwright — validação
+
+![Playwright validação](docs/screenshots/playwright-validation.png)

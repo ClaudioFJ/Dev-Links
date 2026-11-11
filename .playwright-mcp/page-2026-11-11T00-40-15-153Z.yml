@@ -1,0 +1,700 @@
+- generic [active] [ref=f26e1]:
+  - generic [ref=f26e2]:
+    - navigation [ref=f26e4]:
+      - generic [ref=f26e5]:
+        - generic [ref=f26e6]:
+          - link "React" [ref=f26e10] [cursor=pointer]:
+            - /url: /
+          - link "v19.3" [ref=f26e19] [cursor=pointer]:
+            - /url: /versions
+        - button "Search Ctrl K" [ref=f26e21] [cursor=pointer]:
+          - text: Search
+          - generic [ref=f26e24]:
+            - generic [ref=f26e25]: Ctrl
+            - generic [ref=f26e26]: K
+        - generic [ref=f26e27]:
+          - generic [ref=f26e28]:
+            - link "Learn" [ref=f26e30] [cursor=pointer]:
+              - /url: /learn
+            - link "Reference" [ref=f26e32] [cursor=pointer]:
+              - /url: /reference/react
+            - link "Community" [ref=f26e34] [cursor=pointer]:
+              - /url: /community
+            - link "Blog" [ref=f26e36] [cursor=pointer]:
+              - /url: /blog
+          - generic [ref=f26e37]:
+            - button "Use Dark Mode" [ref=f26e39] [cursor=pointer]
+            - link "Translations" [ref=f26e45] [cursor=pointer]:
+              - /url: /community/translations
+            - link "Open on GitHub" [ref=f26e49] [cursor=pointer]:
+              - /url: https://github.com/react/react/releases
+    - generic [ref=f26e53]:
+      - complementary [ref=f26e58]:
+        - navigation [ref=f26e59]:
+          - list [ref=f26e60]:
+            - heading "GET STARTED" [level=3] [ref=f26e61]
+            - listitem [ref=f26e62]:
+              - link "Quick Start" [ref=f26e63] [cursor=pointer]:
+                - /url: /learn
+            - listitem [ref=f26e70]:
+              - link "Installation" [ref=f26e71] [cursor=pointer]:
+                - /url: /learn/installation
+            - listitem [ref=f26e78]:
+              - link "Setup" [ref=f26e79] [cursor=pointer]:
+                - /url: /learn/setup
+            - listitem [ref=f26e86]:
+              - link "React Compiler" [ref=f26e87] [cursor=pointer]:
+                - /url: /learn/react-compiler
+            - separator [ref=f26e94]
+            - heading "LEARN REACT" [level=3] [ref=f26e95]
+            - listitem [ref=f26e96]:
+              - link "Describing the UI" [ref=f26e97] [cursor=pointer]:
+                - /url: /learn/describing-the-ui
+              - region [ref=f26e105]:
+                - list [ref=f26e106]:
+                  - listitem [ref=f26e107]:
+                    - link "Your First Component" [ref=f26e108] [cursor=pointer]:
+                      - /url: /learn/your-first-component
+                  - listitem [ref=f26e110]:
+                    - link "Importing and Exporting Components" [ref=f26e111] [cursor=pointer]:
+                      - /url: /learn/importing-and-exporting-components
+                  - listitem [ref=f26e113]:
+                    - link "Writing Markup with JSX" [ref=f26e114] [cursor=pointer]:
+                      - /url: /learn/writing-markup-with-jsx
+                  - listitem [ref=f26e116]:
+                    - link "JavaScript in JSX with Curly Braces" [ref=f26e117] [cursor=pointer]:
+                      - /url: /learn/javascript-in-jsx-with-curly-braces
+                  - listitem [ref=f26e119]:
+                    - link "Passing Props to a Component" [ref=f26e120] [cursor=pointer]:
+                      - /url: /learn/passing-props-to-a-component
+                  - listitem [ref=f26e122]:
+                    - link "Conditional Rendering" [ref=f26e123] [cursor=pointer]:
+                      - /url: /learn/conditional-rendering
+                  - listitem [ref=f26e125]:
+                    - link "Rendering Lists" [ref=f26e126] [cursor=pointer]:
+                      - /url: /learn/rendering-lists
+                  - listitem [ref=f26e128]:
+                    - link "Keeping Components Pure" [ref=f26e129] [cursor=pointer]:
+                      - /url: /learn/keeping-components-pure
+                  - listitem [ref=f26e131]:
+                    - link "Your UI as a Tree" [ref=f26e132] [cursor=pointer]:
+                      - /url: /learn/understanding-your-ui-as-a-tree
+            - listitem [ref=f26e134]:
+              - link "Adding Interactivity" [ref=f26e135] [cursor=pointer]:
+                - /url: /learn/adding-interactivity
+            - listitem [ref=f26e142]:
+              - link "Managing State" [ref=f26e143] [cursor=pointer]:
+                - /url: /learn/managing-state
+            - listitem [ref=f26e150]:
+              - link "Escape Hatches" [ref=f26e151] [cursor=pointer]:
+                - /url: /learn/escape-hatches
+      - main [ref=f26e159]:
+        - article [ref=f26e160]:
+          - generic [ref=f26e161]:
+            - generic [ref=f26e164]:
+              - generic [ref=f26e165]:
+                - generic [ref=f26e167]:
+                  - link "Learn React" [ref=f26e169] [cursor=pointer]:
+                    - /url: /learn
+                  - link "Describing the UI" [ref=f26e174] [cursor=pointer]:
+                    - /url: /learn/describing-the-ui
+                - button "Copy page" [ref=f26e178] [cursor=pointer]
+              - heading "Passing Props to a Component" [level=1] [ref=f26e183]
+            - generic [ref=f26e184]:
+              - generic [ref=f26e185]:
+                - generic [ref=f26e186]:
+                  - paragraph [ref=f26e188]:
+                    - text: React components use
+                    - emphasis [ref=f26e189]: props
+                    - text: to communicate with each other. Every parent component can pass some information to its child components by giving them props. Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
+                  - generic [ref=f26e190]:
+                    - heading "You will learn" [level=3] [ref=f26e191]
+                    - list [ref=f26e192]:
+                      - listitem [ref=f26e193]: How to pass props to a component
+                      - listitem [ref=f26e194]: How to read props from a component
+                      - listitem [ref=f26e195]: How to specify default values for props
+                      - listitem [ref=f26e196]: How to pass some JSX to a component
+                      - listitem [ref=f26e197]: How props change over time
+                  - heading "Familiar props Link for Familiar props" [level=2] [ref=f26e198]:
+                    - text: Familiar props
+                    - link "Link for Familiar props":
+                      - /url: "#familiar-props"
+                  - paragraph [ref=f26e199]:
+                    - text: Props are the information that you pass to a JSX tag. For example,
+                    - code [ref=f26e200]: className
+                    - text: ","
+                    - code [ref=f26e201]: src
+                    - text: ","
+                    - code [ref=f26e202]: alt
+                    - text: ","
+                    - code [ref=f26e203]: width
+                    - text: ", and"
+                    - code [ref=f26e204]: height
+                    - text: are some of the props you can pass to an
+                    - code [ref=f26e205]: <img>
+                    - text: ":"
+                - generic [ref=f26e208]:
+                  - generic [ref=f26e209]:
+                    - button "App.js" [ref=f26e213] [cursor=pointer]
+                    - generic [ref=f26e215]:
+                      - button "Download" [ref=f26e216] [cursor=pointer]
+                      - button "Reload" [ref=f26e220] [cursor=pointer]
+                      - button "Clear" [ref=f26e224] [cursor=pointer]
+                      - button "Fork" [ref=f26e229] [cursor=pointer]
+                  - generic [ref=f26e234]:
+                    - textbox "Code Editor for App.js" [ref=f26e237]:
+                      - generic [ref=f26e239]:
+                        - generic [ref=f26e241]:
+                          - generic [ref=f26e242]: "1"
+                          - generic [ref=f26e243]: "2"
+                          - generic [ref=f26e244]: "3"
+                          - generic [ref=f26e245]: "4"
+                          - generic [ref=f26e246]: "5"
+                          - generic [ref=f26e247]: "6"
+                          - generic [ref=f26e248]: "7"
+                          - generic [ref=f26e249]: "8"
+                          - generic [ref=f26e250]: "9"
+                          - generic [ref=f26e251]: "10"
+                          - generic [ref=f26e252]: "11"
+                          - generic [ref=f26e253]: "12"
+                          - generic [ref=f26e254]: "13"
+                          - generic [ref=f26e255]: "14"
+                          - generic [ref=f26e256]: "15"
+                          - generic [ref=f26e257]: "16"
+                          - generic [ref=f26e258]: "17"
+                          - generic [ref=f26e259]: "18"
+                        - textbox "Code Editor for App.js" [ref=f26e260]:
+                          - generic [ref=f26e261]: "function Avatar() {"
+                          - generic [ref=f26e262]: return (
+                          - generic [ref=f26e263]: <img
+                          - generic [ref=f26e264]: className="avatar"
+                          - generic [ref=f26e265]: src="https://react.dev/images/docs/scientists/1bX5QH6.jpg"
+                          - generic [ref=f26e266]: alt="Lin Lanying"
+                          - generic [ref=f26e267]: "width={100}"
+                          - generic [ref=f26e268]: "height={100}"
+                          - generic [ref=f26e269]: />
+                          - generic [ref=f26e270]: );
+                          - generic [ref=f26e271]: "}"
+                          - generic [ref=f26e273]: "export default function Profile() {"
+                          - generic [ref=f26e274]: return (
+                          - generic [ref=f26e275]: <Avatar />
+                          - generic [ref=f26e276]: );
+                          - generic [ref=f26e277]: "}"
+                    - iframe [ref=f26e281]
+                    - button "Show more" [ref=f26e282] [cursor=pointer]
+                - generic [ref=f26e288]:
+                  - paragraph [ref=f26e289]:
+                    - text: The props you can pass to an
+                    - code [ref=f26e290]: <img>
+                    - text: tag are predefined (ReactDOM conforms to
+                    - link "the HTML standard" [ref=f26e291] [cursor=pointer]:
+                      - /url: https://www.w3.org/TR/html52/semantics-embedded-content.html#the-img-element
+                    - text: ). But you can pass any props to
+                    - emphasis [ref=f26e292]: your own
+                    - text: components, such as
+                    - code [ref=f26e293]: <Avatar>
+                    - text: ", to customize them. Here’s how!"
+                  - heading "Passing props to a component Link for Passing props to a component" [level=2] [ref=f26e294]:
+                    - text: Passing props to a component
+                    - link "Link for Passing props to a component":
+                      - /url: "#passing-props-to-a-component"
+                  - paragraph [ref=f26e295]:
+                    - text: In this code, the
+                    - code [ref=f26e296]: Profile
+                    - text: component isn’t passing any props to its child component,
+                    - code [ref=f26e297]: Avatar
+                    - text: ":"
+                  - code [ref=f26e303]:
+                    - generic [ref=f26e304]: "export default function Profile() {"
+                    - generic [ref=f26e305]: return (
+                    - generic [ref=f26e306]: <Avatar />
+                    - generic [ref=f26e307]: );
+                    - generic [ref=f26e308]: "}"
+                  - paragraph [ref=f26e309]:
+                    - text: You can give
+                    - code [ref=f26e310]: Avatar
+                    - text: some props in two steps.
+                  - 'heading "Step 1: Pass props to the child component Link for Step 1: Pass props to the child component" [level=3] [ref=f26e311]':
+                    - text: "Step 1: Pass props to the child component"
+                    - 'link "Link for Step 1: Pass props to the child component"':
+                      - /url: "#step-1-pass-props-to-the-child-component"
+                  - paragraph [ref=f26e312]:
+                    - text: First, pass some props to
+                    - code [ref=f26e313]: Avatar
+                    - text: ". For example, let’s pass two props:"
+                    - code [ref=f26e314]: person
+                    - text: (an object), and
+                    - code [ref=f26e315]: size
+                    - text: "(a number):"
+                  - code [ref=f26e321]:
+                    - generic [ref=f26e322]: "export default function Profile() {"
+                    - generic [ref=f26e323]: return (
+                    - generic [ref=f26e324]: <Avatar
+                    - generic [ref=f26e325]: "person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }}"
+                    - generic [ref=f26e326]: "size={100}"
+                    - generic [ref=f26e327]: />
+                    - generic [ref=f26e328]: );
+                    - generic [ref=f26e329]: "}"
+                  - generic [ref=f26e330]:
+                    - heading "Note" [level=3] [ref=f26e331]
+                    - paragraph [ref=f26e339]:
+                      - text: If double curly braces after
+                      - code [ref=f26e340]: person=
+                      - text: confuse you, recall
+                      - link "they’re merely an object" [ref=f26e341] [cursor=pointer]:
+                        - /url: /learn/javascript-in-jsx-with-curly-braces#using-double-curlies-css-and-other-objects-in-jsx
+                      - text: inside the JSX curlies.
+                  - paragraph [ref=f26e342]:
+                    - text: Now you can read these props inside the
+                    - code [ref=f26e343]: Avatar
+                    - text: component.
+                  - 'heading "Step 2: Read props inside the child component Link for Step 2: Read props inside the child component" [level=3] [ref=f26e344]':
+                    - text: "Step 2: Read props inside the child component"
+                    - 'link "Link for Step 2: Read props inside the child component"':
+                      - /url: "#step-2-read-props-inside-the-child-component"
+                  - paragraph [ref=f26e345]:
+                    - text: You can read these props by listing their names
+                    - code [ref=f26e346]: person, size
+                    - text: separated by the commas inside
+                    - code [ref=f26e347]: "({"
+                    - text: and
+                    - code [ref=f26e348]: "})"
+                    - text: directly after
+                    - code [ref=f26e349]: function Avatar
+                    - text: . This lets you use them inside the
+                    - code [ref=f26e350]: Avatar
+                    - text: code, like you would with a variable.
+                  - code [ref=f26e356]:
+                    - generic [ref=f26e357]: "function Avatar({ person, size }) {"
+                    - generic [ref=f26e358]: // person and size are available here
+                    - generic [ref=f26e359]: "}"
+                  - paragraph [ref=f26e360]:
+                    - text: Add some logic to
+                    - code [ref=f26e361]: Avatar
+                    - text: that uses the
+                    - code [ref=f26e362]: person
+                    - text: and
+                    - code [ref=f26e363]: size
+                    - text: props for rendering, and you’re done.
+                  - paragraph [ref=f26e364]:
+                    - text: Now you can configure
+                    - code [ref=f26e365]: Avatar
+                    - text: to render in many different ways with different props. Try tweaking the values!
+                - generic [ref=f26e368]:
+                  - generic [ref=f26e369]:
+                    - tablist "Select active file" [ref=f26e375]:
+                      - tab "App.js" [selected] [ref=f26e376] [cursor=pointer]
+                      - tab "utils.js" [ref=f26e377] [cursor=pointer]
+                    - generic [ref=f26e378]:
+                      - button "Reload" [ref=f26e379] [cursor=pointer]
+                      - button "Clear" [ref=f26e383] [cursor=pointer]
+                      - link "Fork" [ref=f26e388] [cursor=pointer]:
+                        - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                  - generic [ref=f26e393]:
+                    - textbox "Code Editor for App.js" [ref=f26e396]:
+                      - generic [ref=f26e397]: "import { getImageUrl } from './utils.js'; function Avatar({ person, size }) { return ( <img className=\"avatar\" src={getImageUrl(person)} alt={person.name} width={size} height={size} /> ); } export default function Profile() { return ( <div> <Avatar size={100} person={{ name: 'Katsuko Saruhashi', imageId: 'YfeOqp2' }} /> <Avatar size={80} person={{ name: 'Aklilu Lemma', imageId: 'OKS67lh' }} /> <Avatar size={50} person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }} /> </div> ); }"
+                    - iframe [ref=f26e400]
+                    - button "Show more" [ref=f26e401] [cursor=pointer]
+                - generic [ref=f26e407]:
+                  - paragraph [ref=f26e408]:
+                    - text: Props let you think about parent and child components independently. For example, you can change the
+                    - code [ref=f26e409]: person
+                    - text: or the
+                    - code [ref=f26e410]: size
+                    - text: props inside
+                    - code [ref=f26e411]: Profile
+                    - text: without having to think about how
+                    - code [ref=f26e412]: Avatar
+                    - text: uses them. Similarly, you can change how the
+                    - code [ref=f26e413]: Avatar
+                    - text: uses these props, without looking at the
+                    - code [ref=f26e414]: Profile
+                    - text: .
+                  - paragraph [ref=f26e415]:
+                    - text: You can think of props like “knobs” that you can adjust. They serve the same role as arguments serve for functions—in fact, props
+                    - emphasis [ref=f26e416]: are
+                    - text: the only argument to your component! React component functions accept a single argument, a
+                    - code [ref=f26e417]: props
+                    - text: "object:"
+                  - code [ref=f26e423]:
+                    - generic [ref=f26e424]: "function Avatar(props) {"
+                    - generic [ref=f26e425]: let person = props.person;
+                    - generic [ref=f26e426]: let size = props.size;
+                    - generic [ref=f26e427]: // ...
+                    - generic [ref=f26e428]: "}"
+                  - paragraph [ref=f26e429]:
+                    - text: Usually you don’t need the whole
+                    - code [ref=f26e430]: props
+                    - text: object itself, so you destructure it into individual props.
+                  - generic [ref=f26e431]:
+                    - heading "Pitfall" [level=3] [ref=f26e432]
+                    - generic [ref=f26e437]:
+                      - paragraph [ref=f26e438]:
+                        - strong [ref=f26e439]:
+                          - text: Don’t miss the pair of
+                          - code [ref=f26e440]: "{"
+                          - text: and
+                          - code [ref=f26e441]: "}"
+                          - text: curlies
+                        - text: inside of
+                        - code [ref=f26e442]: (
+                        - text: and
+                        - code [ref=f26e443]: )
+                        - text: "when declaring props:"
+                      - code [ref=f26e449]:
+                        - generic [ref=f26e450]: "function Avatar({ person, size }) {"
+                        - generic [ref=f26e451]: // ...
+                        - generic [ref=f26e452]: "}"
+                      - paragraph [ref=f26e453]:
+                        - text: This syntax is called
+                        - link "“destructuring”" [ref=f26e454] [cursor=pointer]:
+                          - /url: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Unpacking_fields_from_objects_passed_as_a_function_parameter
+                        - text: "and is equivalent to reading properties from a function parameter:"
+                      - code [ref=f26e460]:
+                        - generic [ref=f26e461]: "function Avatar(props) {"
+                        - generic [ref=f26e462]: let person = props.person;
+                        - generic [ref=f26e463]: let size = props.size;
+                        - generic [ref=f26e464]: // ...
+                        - generic [ref=f26e465]: "}"
+                  - heading "Specifying a default value for a prop Link for Specifying a default value for a prop" [level=2] [ref=f26e466]:
+                    - text: Specifying a default value for a prop
+                    - link "Link for Specifying a default value for a prop":
+                      - /url: "#specifying-a-default-value-for-a-prop"
+                  - paragraph [ref=f26e467]:
+                    - text: If you want to give a prop a default value to fall back on when no value is specified, you can do it with the destructuring by putting
+                    - code [ref=f26e468]: =
+                    - text: "and the default value right after the parameter:"
+                  - code [ref=f26e474]:
+                    - generic [ref=f26e475]: "function Avatar({ person, size = 100 }) {"
+                    - generic [ref=f26e476]: // ...
+                    - generic [ref=f26e477]: "}"
+                  - paragraph [ref=f26e478]:
+                    - text: Now, if
+                    - code [ref=f26e479]: "<Avatar person={...} />"
+                    - text: is rendered with no
+                    - code [ref=f26e480]: size
+                    - text: prop, the
+                    - code [ref=f26e481]: size
+                    - text: will be set to
+                    - code [ref=f26e482]: "100"
+                    - text: .
+                  - paragraph [ref=f26e483]:
+                    - text: The default value is only used if the
+                    - code [ref=f26e484]: size
+                    - text: prop is missing or if you pass
+                    - code [ref=f26e485]: "size={undefined}"
+                    - text: . But if you pass
+                    - code [ref=f26e486]: "size={null}"
+                    - text: or
+                    - code [ref=f26e487]: "size={0}"
+                    - text: ", the default value will"
+                    - strong [ref=f26e488]: not
+                    - text: be used.
+                  - heading "Forwarding props with the JSX spread syntax Link for Forwarding props with the JSX spread syntax" [level=2] [ref=f26e489]:
+                    - text: Forwarding props with the JSX spread syntax
+                    - link "Link for Forwarding props with the JSX spread syntax":
+                      - /url: "#forwarding-props-with-the-jsx-spread-syntax"
+                  - paragraph [ref=f26e490]: "Sometimes, passing props gets very repetitive:"
+                  - code [ref=f26e496]:
+                    - generic [ref=f26e497]: "function Profile({ person, size, isSepia, thickBorder }) {"
+                    - generic [ref=f26e498]: return (
+                    - generic [ref=f26e499]: <div className="card">
+                    - generic [ref=f26e500]: <Avatar
+                    - generic [ref=f26e501]: "person={person}"
+                    - generic [ref=f26e502]: "size={size}"
+                    - generic [ref=f26e503]: "isSepia={isSepia}"
+                    - generic [ref=f26e504]: "thickBorder={thickBorder}"
+                    - generic [ref=f26e505]: />
+                    - generic [ref=f26e506]: </div>
+                    - generic [ref=f26e507]: );
+                    - generic [ref=f26e508]: "}"
+                  - paragraph [ref=f26e509]:
+                    - text: There’s nothing wrong with repetitive code—it can be more legible. But at times you may value conciseness. Some components forward all of their props to their children, like how this
+                    - code [ref=f26e510]: Profile
+                    - text: does with
+                    - code [ref=f26e511]: Avatar
+                    - text: ". Because they don’t use any of their props directly, it can make sense to use a more concise “spread” syntax:"
+                  - code [ref=f26e517]:
+                    - generic [ref=f26e518]: "function Profile(props) {"
+                    - generic [ref=f26e519]: return (
+                    - generic [ref=f26e520]: <div className="card">
+                    - generic [ref=f26e521]: "<Avatar {...props} />"
+                    - generic [ref=f26e522]: </div>
+                    - generic [ref=f26e523]: );
+                    - generic [ref=f26e524]: "}"
+                  - paragraph [ref=f26e525]:
+                    - text: This forwards all of
+                    - code [ref=f26e526]: Profile
+                    - text: ’s props to the
+                    - code [ref=f26e527]: Avatar
+                    - text: without listing each of their names.
+                  - paragraph [ref=f26e528]:
+                    - strong [ref=f26e529]: Use spread syntax with restraint.
+                    - text: If you’re using it in every other component, something is wrong. Often, it indicates that you should split your components and pass children as JSX. More on that next!
+                  - heading "Passing JSX as children Link for Passing JSX as children" [level=2] [ref=f26e530]:
+                    - text: Passing JSX as children
+                    - link "Link for Passing JSX as children":
+                      - /url: "#passing-jsx-as-children"
+                  - paragraph [ref=f26e531]: "It is common to nest built-in browser tags:"
+                  - code [ref=f26e537]:
+                    - generic [ref=f26e538]: <div>
+                    - generic [ref=f26e539]: <img />
+                    - generic [ref=f26e540]: </div>
+                  - paragraph [ref=f26e541]: "Sometimes you’ll want to nest your own components the same way:"
+                  - code [ref=f26e547]:
+                    - generic [ref=f26e548]: <Card>
+                    - generic [ref=f26e549]: <Avatar />
+                    - generic [ref=f26e550]: </Card>
+                  - paragraph [ref=f26e551]:
+                    - text: When you nest content inside a JSX tag, the parent component will receive that content in a prop called
+                    - code [ref=f26e552]: children
+                    - text: . For example, the
+                    - code [ref=f26e553]: Card
+                    - text: component below will receive a
+                    - code [ref=f26e554]: children
+                    - text: prop set to
+                    - code [ref=f26e555]: <Avatar />
+                    - text: "and render it in a wrapper div:"
+                - generic [ref=f26e558]:
+                  - generic [ref=f26e559]:
+                    - tablist "Select active file" [ref=f26e565]:
+                      - tab "App.js" [selected] [ref=f26e566] [cursor=pointer]
+                      - tab "Avatar.js" [ref=f26e567] [cursor=pointer]
+                      - tab "utils.js" [ref=f26e568] [cursor=pointer]
+                    - generic [ref=f26e569]:
+                      - button "Reload" [ref=f26e570] [cursor=pointer]
+                      - button "Clear" [ref=f26e574] [cursor=pointer]
+                      - link "Fork" [ref=f26e579] [cursor=pointer]:
+                        - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                  - generic [ref=f26e584]:
+                    - textbox "Code Editor for App.js" [ref=f26e587]:
+                      - generic [ref=f26e588]: "import Avatar from './Avatar.js'; function Card({ children }) { return ( <div className=\"card\"> {children} </div> ); } export default function Profile() { return ( <Card> <Avatar size={100} person={{ name: 'Katsuko Saruhashi', imageId: 'YfeOqp2' }} /> </Card> ); }"
+                    - iframe [ref=f26e591]
+                    - button "Show more" [ref=f26e592] [cursor=pointer]
+                - generic [ref=f26e598]:
+                  - paragraph [ref=f26e599]:
+                    - text: Try replacing the
+                    - code [ref=f26e600]: <Avatar>
+                    - text: inside
+                    - code [ref=f26e601]: <Card>
+                    - text: with some text to see how the
+                    - code [ref=f26e602]: Card
+                    - text: component can wrap any nested content. It doesn’t need to “know” what’s being rendered inside of it. You will see this flexible pattern in many places.
+                  - paragraph [ref=f26e603]:
+                    - text: You can think of a component with a
+                    - code [ref=f26e604]: children
+                    - text: prop as having a “hole” that can be “filled in” by its parent components with arbitrary JSX. You will often use the
+                    - code [ref=f26e605]: children
+                    - text: "prop for visual wrappers: panels, grids, etc."
+                - generic [ref=f26e606]:
+                  - figure [ref=f26e607]:
+                    - img "A puzzle-like Card tile with a slot for \"children\" pieces like text and Avatar" [ref=f26e608]
+                  - paragraph [ref=f26e610]:
+                    - generic [ref=f26e611]:
+                      - text: Illustrated by
+                      - link "Rachel Lee Nabors" [ref=f26e612] [cursor=pointer]:
+                        - /url: https://nearestnabors.com/
+                - generic [ref=f26e613]:
+                  - heading "How props change over time Link for How props change over time" [level=2] [ref=f26e614]:
+                    - text: How props change over time
+                    - link "Link for How props change over time":
+                      - /url: "#how-props-change-over-time"
+                  - paragraph [ref=f26e615]:
+                    - text: The
+                    - code [ref=f26e616]: Clock
+                    - text: "component below receives two props from its parent component:"
+                    - code [ref=f26e617]: color
+                    - text: and
+                    - code [ref=f26e618]: time
+                    - text: . (The parent component’s code is omitted because it uses
+                    - link "state" [ref=f26e619] [cursor=pointer]:
+                      - /url: /learn/state-a-components-memory
+                    - text: ", which we won’t dive into just yet.)"
+                  - paragraph [ref=f26e620]: "Try changing the color in the select box below:"
+                - generic [ref=f26e623]:
+                  - generic [ref=f26e624]:
+                    - button "Clock.js" [ref=f26e628] [cursor=pointer]
+                    - generic [ref=f26e630]:
+                      - button "Reload" [ref=f26e631] [cursor=pointer]
+                      - button "Clear" [ref=f26e635] [cursor=pointer]
+                      - link "Fork" [ref=f26e640] [cursor=pointer]:
+                        - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                  - generic [ref=f26e645]:
+                    - textbox "Code Editor for Clock.js" [ref=f26e648]:
+                      - generic [ref=f26e649]: "export default function Clock({ color, time }) { return ( <h1 style={{ color: color }}> {time} </h1> ); }"
+                    - iframe [ref=f26e652]
+                - generic [ref=f26e653]:
+                  - paragraph [ref=f26e654]:
+                    - text: This example illustrates that
+                    - strong [ref=f26e655]: a component may receive different props over time.
+                    - text: Props are not always static! Here, the
+                    - code [ref=f26e656]: time
+                    - text: prop changes every second, and the
+                    - code [ref=f26e657]: color
+                    - text: prop changes when you select another color. Props reflect a component’s data at any point in time, rather than only in the beginning.
+                  - paragraph [ref=f26e658]:
+                    - text: However, props are
+                    - link "immutable" [ref=f26e659] [cursor=pointer]:
+                      - /url: https://en.wikipedia.org/wiki/Immutable_object
+                    - text: —a term from computer science meaning “unchangeable”. When a component needs to change its props (for example, in response to a user interaction or new data), it will have to “ask” its parent component to pass it
+                    - emphasis [ref=f26e660]: different props
+                    - text: —a new object! Its old props will then be cast aside, and eventually the JavaScript engine will reclaim the memory taken by them.
+                  - paragraph [ref=f26e661]:
+                    - strong [ref=f26e662]: Don’t try to “change props”.
+                    - text: When you need to respond to the user input (like changing the selected color), you will need to “set state”, which you can learn about in
+                    - 'link "State: A Component’s Memory." [ref=f26e663] [cursor=pointer]':
+                      - /url: /learn/state-a-components-memory
+                  - generic [ref=f26e664]:
+                    - heading "Recap Link for Recap" [level=2] [ref=f26e665]:
+                      - text: Recap
+                      - link "Link for Recap":
+                        - /url: "#recap"
+                    - list [ref=f26e666]:
+                      - listitem [ref=f26e667]: To pass props, add them to the JSX, just like you would with HTML attributes.
+                      - listitem [ref=f26e668]:
+                        - text: To read props, use the
+                        - code [ref=f26e669]: "function Avatar({ person, size })"
+                        - text: destructuring syntax.
+                      - listitem [ref=f26e670]:
+                        - text: You can specify a default value like
+                        - code [ref=f26e671]: size = 100
+                        - text: ", which is used for missing and"
+                        - code [ref=f26e672]: undefined
+                        - text: props.
+                      - listitem [ref=f26e673]:
+                        - text: You can forward all props with
+                        - code [ref=f26e674]: "<Avatar {...props} />"
+                        - text: JSX spread syntax, but don’t overuse it!
+                      - listitem [ref=f26e675]:
+                        - text: Nested JSX like
+                        - code [ref=f26e676]: <Card><Avatar /></Card>
+                        - text: will appear as
+                        - code [ref=f26e677]: Card
+                        - text: component’s
+                        - code [ref=f26e678]: children
+                        - text: prop.
+                      - listitem [ref=f26e679]: "Props are read-only snapshots in time: every render receives a new version of props."
+                      - listitem [ref=f26e680]: You can’t change props. When you need interactivity, you’ll need to set state.
+                - generic [ref=f26e682]:
+                  - generic [ref=f26e683]:
+                    - heading "Try out some challenges Link for Try out some challenges" [level=2] [ref=f26e684]:
+                      - text: Try out some challenges
+                      - link "Link for Try out some challenges":
+                        - /url: "#challenges"
+                    - generic [ref=f26e685]:
+                      - generic [ref=f26e687]:
+                        - button "1. Extract a component" [ref=f26e688] [cursor=pointer]
+                        - button "2. Adjust the image size based on a prop" [ref=f26e689] [cursor=pointer]
+                        - button [ref=f26e690] [cursor=pointer]:
+                          - text: 3. Passing JSX in a
+                          - code [ref=f26e691]: children
+                          - text: prop
+                      - generic [ref=f26e692]:
+                        - button "Scroll left" [ref=f26e693] [cursor=pointer]
+                        - button "Scroll right" [ref=f26e698] [cursor=pointer]
+                  - generic [ref=f26e703]:
+                    - generic [ref=f26e704]:
+                      - 'heading "Challenge 1 of 3: Extract a component Link for this heading" [level=4] [ref=f26e705]':
+                        - generic [ref=f26e706]: "Challenge 1 of 3:"
+                        - text: Extract a component
+                        - link "Link for this heading":
+                          - /url: "#extract-a-component"
+                      - paragraph [ref=f26e707]:
+                        - text: This
+                        - code [ref=f26e708]: Gallery
+                        - text: component contains some very similar markup for two profiles. Extract a
+                        - code [ref=f26e709]: Profile
+                        - text: component out of it to reduce the duplication. You’ll need to choose what props to pass to it.
+                      - generic [ref=f26e712]:
+                        - generic [ref=f26e713]:
+                          - tablist "Select active file" [ref=f26e719]:
+                            - tab "App.js" [selected] [ref=f26e720] [cursor=pointer]
+                            - tab "utils.js" [ref=f26e721] [cursor=pointer]
+                          - generic [ref=f26e722]:
+                            - button "Reload" [ref=f26e723] [cursor=pointer]
+                            - button "Clear" [ref=f26e727] [cursor=pointer]
+                            - link "Fork" [ref=f26e732] [cursor=pointer]:
+                              - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                        - generic [ref=f26e737]:
+                          - textbox "Code Editor for App.js" [ref=f26e740]:
+                            - generic [ref=f26e741]: "import { getImageUrl } from './utils.js'; export default function Gallery() { return ( <div> <h1>Notable Scientists</h1> <section className=\"profile\"> <h2>Maria Skłodowska-Curie</h2> <img className=\"avatar\" src={getImageUrl('szV5sdG')} alt=\"Maria Skłodowska-Curie\" width={70} height={70} /> <ul> <li> <b>Profession: </b> physicist and chemist </li> <li> <b>Awards: 4 </b> (Nobel Prize in Physics, Nobel Prize in Chemistry, Davy Medal, Matteucci Medal) </li> <li> <b>Discovered: </b> polonium (chemical element) </li> </ul> </section> <section className=\"profile\"> <h2>Katsuko Saruhashi</h2> <img className=\"avatar\" src={getImageUrl('YfeOqp2')} alt=\"Katsuko Saruhashi\" width={70} height={70} /> <ul> <li> <b>Profession: </b> geochemist </li> <li> <b>Awards: 2 </b> (Miyake Prize for geochemistry, Tanaka Prize) </li> <li> <b>Discovered: </b> a method for measuring carbon dioxide in seawater </li> </ul> </section> </div> ); }"
+                          - iframe [ref=f26e744]
+                          - button "Show more" [ref=f26e745] [cursor=pointer]
+                    - generic [ref=f26e751]:
+                      - generic [ref=f26e752]:
+                        - button "Show hint" [ref=f26e753] [cursor=pointer]
+                        - button "Show solution" [ref=f26e756] [cursor=pointer]
+                      - button "Next Challenge" [ref=f26e759] [cursor=pointer]
+              - generic [ref=f26e762]:
+                - link "Previous JavaScript in JSX with Curly Braces" [ref=f26e763] [cursor=pointer]:
+                  - /url: /learn/javascript-in-jsx-with-curly-braces
+                  - generic [ref=f26e768]:
+                    - generic [ref=f26e769]: Previous
+                    - generic [ref=f26e770]: JavaScript in JSX with Curly Braces
+                - link "Next Conditional Rendering" [ref=f26e771] [cursor=pointer]:
+                  - /url: /learn/conditional-rendering
+                  - generic [ref=f26e776]:
+                    - generic [ref=f26e777]: Next
+                    - generic [ref=f26e778]: Conditional Rendering
+        - generic [ref=f26e779]:
+          - separator [ref=f26e781]
+          - generic [ref=f26e784]:
+            - generic [ref=f26e785]:
+              - link "Meta Open Source" [ref=f26e786] [cursor=pointer]:
+                - /url: https://opensource.fb.com/
+              - generic [ref=f26e818]: Copyright © Meta Platforms, Inc
+              - generic [ref=f26e819] [cursor=pointer]: uwu?
+            - generic [ref=f26e820]:
+              - link "Learn React" [ref=f26e822] [cursor=pointer]:
+                - /url: /learn
+              - link "Quick Start" [ref=f26e824] [cursor=pointer]:
+                - /url: /learn
+              - link "Installation" [ref=f26e826] [cursor=pointer]:
+                - /url: /learn/installation
+              - link "Describing the UI" [ref=f26e828] [cursor=pointer]:
+                - /url: /learn/describing-the-ui
+              - link "Adding Interactivity" [ref=f26e830] [cursor=pointer]:
+                - /url: /learn/adding-interactivity
+              - link "Managing State" [ref=f26e832] [cursor=pointer]:
+                - /url: /learn/managing-state
+              - link "Escape Hatches" [ref=f26e834] [cursor=pointer]:
+                - /url: /learn/escape-hatches
+            - generic [ref=f26e835]:
+              - link "API Reference" [ref=f26e837] [cursor=pointer]:
+                - /url: /reference/react
+              - link "React APIs" [ref=f26e839] [cursor=pointer]:
+                - /url: /reference/react
+              - link "React DOM APIs" [ref=f26e841] [cursor=pointer]:
+                - /url: /reference/react-dom
+            - generic [ref=f26e842]:
+              - link "Community" [ref=f26e844] [cursor=pointer]:
+                - /url: /community
+              - link "Code of Conduct" [ref=f26e846] [cursor=pointer]:
+                - /url: https://github.com/react/react/blob/main/CODE_OF_CONDUCT.md
+              - link "Meet the Team" [ref=f26e848] [cursor=pointer]:
+                - /url: /community/team
+              - link "Docs Contributors" [ref=f26e850] [cursor=pointer]:
+                - /url: /community/docs-contributors
+              - link "Acknowledgements" [ref=f26e852] [cursor=pointer]:
+                - /url: /community/acknowledgements
+            - generic [ref=f26e853]:
+              - generic [ref=f26e854]: More
+              - link "Blog" [ref=f26e856] [cursor=pointer]:
+                - /url: /blog
+              - link "React Native" [ref=f26e858] [cursor=pointer]:
+                - /url: https://reactnative.dev/
+              - link "Privacy" [ref=f26e860] [cursor=pointer]:
+                - /url: https://opensource.facebook.com/legal/privacy
+              - link "Terms" [ref=f26e862] [cursor=pointer]:
+                - /url: https://opensource.fb.com/legal/terms/
+              - generic [ref=f26e863]:
+                - link "React on Facebook" [ref=f26e864] [cursor=pointer]:
+                  - /url: https://www.facebook.com/react
+                - link "React on Twitter" [ref=f26e868] [cursor=pointer]:
+                  - /url: https://twitter.com/reactjs
+                - link "React on Bluesky" [ref=f26e872] [cursor=pointer]:
+                  - /url: https://bsky.app/profile/react.dev
+                  - img "Bluesky" [ref=f26e873]
+                - link "React on Github" [ref=f26e875] [cursor=pointer]:
+                  - /url: https://github.com/react/react
+  - alert [ref=f26e878]

@@ -1,0 +1,10 @@
+- generic [active] [ref=f32e1]:
+  - heading "Validação Playwright — DevLinks" [level=1] [ref=f32e2]
+  - list [ref=f32e3]:
+    - listitem [ref=f32e4]: ✅ Página carrega sem erros no console
+    - listitem [ref=f32e5]: ✅ Switch alterna claro/escuro (cores, fundo e ícone)
+    - listitem [ref=f32e6]: ✅ Tema salvo no localStorage e restaurado ao recarregar
+    - listitem [ref=f32e7]: ✅ 4 botões e 4 redes com href, target="_blank" e rel="noopener noreferrer"
+    - listitem [ref=f32e8]: ✅ Layout sem rolagem horizontal em 1440px e 360px
+    - listitem [ref=f32e9]: ✅ Screenshots em desktop e mobile, nos dois temas
+  - paragraph [ref=f32e10]: Executado em http://localhost:5173

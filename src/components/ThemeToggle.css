@@ -12,7 +12,7 @@
 .theme-toggle__knob {
   position: absolute;
   top: 50%;
-  left: 2px;
+  left: 2px; /* modo escuro: bolinha à esquerda */
   transform: translateY(-50%);
   display: flex;
   align-items: center;
@@ -26,22 +26,8 @@
 }
 
 /* Modo claro: bolinha à direita */
-[data-theme='light'] .theme-toggle__knob {
+.theme-toggle__knob--light {
   left: calc(100% - 26px);
-}
-
-.theme-toggle__icon {
-  display: none;
-}
-
-/* Modo escuro: mostra a lua */
-[data-theme='dark'] .theme-toggle__icon--moon {
-  display: block;
-}
-
-/* Modo claro: mostra o sol */
-[data-theme='light'] .theme-toggle__icon--sun {
-  display: block;
 }
 
 /* Halo no hover e no foco (teclado) */

@@ -30,7 +30,7 @@ function SocialLinks({ socials }) {
   return (
     <ul className="social-links">
       {socials.map((social) => (
-        <li key={social.url}>
+        <li key={social.name}>
           <a
             className="social-links__link"
             href={social.url}

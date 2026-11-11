@@ -1,0 +1,1499 @@
+- generic [active] [ref=f16e1]:
+  - generic [ref=f16e2]:
+    - navigation [ref=f16e4]:
+      - generic [ref=f16e5]:
+        - generic [ref=f16e6]:
+          - link "React" [ref=f16e10] [cursor=pointer]:
+            - /url: /
+          - link "v19.3" [ref=f16e19] [cursor=pointer]:
+            - /url: /versions
+        - button "Search Ctrl K" [ref=f16e21] [cursor=pointer]:
+          - text: Search
+          - generic [ref=f16e24]:
+            - generic [ref=f16e25]: Ctrl
+            - generic [ref=f16e26]: K
+        - generic [ref=f16e27]:
+          - generic [ref=f16e28]:
+            - link "Learn" [ref=f16e30] [cursor=pointer]:
+              - /url: /learn
+            - link "Reference" [ref=f16e32] [cursor=pointer]:
+              - /url: /reference/react
+            - link "Community" [ref=f16e34] [cursor=pointer]:
+              - /url: /community
+            - link "Blog" [ref=f16e36] [cursor=pointer]:
+              - /url: /blog
+          - generic [ref=f16e37]:
+            - button "Use Dark Mode" [ref=f16e39] [cursor=pointer]
+            - link "Translations" [ref=f16e45] [cursor=pointer]:
+              - /url: /community/translations
+            - link "Open on GitHub" [ref=f16e49] [cursor=pointer]:
+              - /url: https://github.com/react/react/releases
+    - generic [ref=f16e53]:
+      - complementary [ref=f16e58]:
+        - navigation [ref=f16e59]:
+          - list [ref=f16e60]:
+            - heading "react@19.3" [level=3] [ref=f16e61]
+            - listitem [ref=f16e62]:
+              - link "Overview" [ref=f16e63] [cursor=pointer]:
+                - /url: /reference/react
+            - listitem [ref=f16e65]:
+              - link "Hooks" [ref=f16e66] [cursor=pointer]:
+                - /url: /reference/react/hooks
+              - region [ref=f16e74]:
+                - list [ref=f16e75]:
+                  - listitem [ref=f16e76]:
+                    - link "useActionState" [ref=f16e77] [cursor=pointer]:
+                      - /url: /reference/react/useActionState
+                  - listitem [ref=f16e79]:
+                    - link "useCallback" [ref=f16e80] [cursor=pointer]:
+                      - /url: /reference/react/useCallback
+                  - listitem [ref=f16e82]:
+                    - link "useContext" [ref=f16e83] [cursor=pointer]:
+                      - /url: /reference/react/useContext
+                  - listitem [ref=f16e85]:
+                    - link "useDebugValue" [ref=f16e86] [cursor=pointer]:
+                      - /url: /reference/react/useDebugValue
+                  - listitem [ref=f16e88]:
+                    - link "useDeferredValue" [ref=f16e89] [cursor=pointer]:
+                      - /url: /reference/react/useDeferredValue
+                  - listitem [ref=f16e91]:
+                    - link "useEffect" [ref=f16e92] [cursor=pointer]:
+                      - /url: /reference/react/useEffect
+                  - listitem [ref=f16e94]:
+                    - link "useEffectEvent" [ref=f16e95] [cursor=pointer]:
+                      - /url: /reference/react/useEffectEvent
+                  - listitem [ref=f16e97]:
+                    - link "useId" [ref=f16e98] [cursor=pointer]:
+                      - /url: /reference/react/useId
+                  - listitem [ref=f16e100]:
+                    - link "useImperativeHandle" [ref=f16e101] [cursor=pointer]:
+                      - /url: /reference/react/useImperativeHandle
+                  - listitem [ref=f16e103]:
+                    - link "useInsertionEffect" [ref=f16e104] [cursor=pointer]:
+                      - /url: /reference/react/useInsertionEffect
+                  - listitem [ref=f16e106]:
+                    - link "useLayoutEffect" [ref=f16e107] [cursor=pointer]:
+                      - /url: /reference/react/useLayoutEffect
+                  - listitem [ref=f16e109]:
+                    - link "useMemo" [ref=f16e110] [cursor=pointer]:
+                      - /url: /reference/react/useMemo
+                  - listitem [ref=f16e112]:
+                    - link "useOptimistic" [ref=f16e113] [cursor=pointer]:
+                      - /url: /reference/react/useOptimistic
+                  - listitem [ref=f16e115]:
+                    - link "useReducer" [ref=f16e116] [cursor=pointer]:
+                      - /url: /reference/react/useReducer
+                  - listitem [ref=f16e118]:
+                    - link "useRef" [ref=f16e119] [cursor=pointer]:
+                      - /url: /reference/react/useRef
+                  - listitem [ref=f16e121]:
+                    - link "useState" [ref=f16e122] [cursor=pointer]:
+                      - /url: /reference/react/useState
+                  - listitem [ref=f16e124]:
+                    - link "useSyncExternalStore" [ref=f16e125] [cursor=pointer]:
+                      - /url: /reference/react/useSyncExternalStore
+                  - listitem [ref=f16e127]:
+                    - link "useTransition" [ref=f16e128] [cursor=pointer]:
+                      - /url: /reference/react/useTransition
+            - listitem [ref=f16e130]:
+              - link "Components" [ref=f16e131] [cursor=pointer]:
+                - /url: /reference/react/components
+            - listitem [ref=f16e138]:
+              - link "APIs" [ref=f16e139] [cursor=pointer]:
+                - /url: /reference/react/apis
+            - separator [ref=f16e146]
+            - heading "react-dom@19.3" [level=3] [ref=f16e147]
+            - listitem [ref=f16e148]:
+              - link "Hooks" [ref=f16e149] [cursor=pointer]:
+                - /url: /reference/react-dom/hooks
+            - listitem [ref=f16e156]:
+              - link "Components" [ref=f16e157] [cursor=pointer]:
+                - /url: /reference/react-dom/components
+            - listitem [ref=f16e164]:
+              - link "APIs" [ref=f16e165] [cursor=pointer]:
+                - /url: /reference/react-dom
+            - listitem [ref=f16e172]:
+              - link "Client APIs" [ref=f16e173] [cursor=pointer]:
+                - /url: /reference/react-dom/client
+            - listitem [ref=f16e180]:
+              - link "Server APIs" [ref=f16e181] [cursor=pointer]:
+                - /url: /reference/react-dom/server
+            - listitem [ref=f16e188]:
+              - link "Static APIs" [ref=f16e189] [cursor=pointer]:
+                - /url: /reference/react-dom/static
+            - separator [ref=f16e196]
+            - heading "React Compiler" [level=3] [ref=f16e197]
+            - listitem [ref=f16e198]:
+              - link "Configuration" [ref=f16e199] [cursor=pointer]:
+                - /url: /reference/react-compiler/configuration
+            - listitem [ref=f16e206]:
+              - link "Directives" [ref=f16e207] [cursor=pointer]:
+                - /url: /reference/react-compiler/directives
+            - listitem [ref=f16e214]:
+              - link "Compiling Libraries" [ref=f16e215] [cursor=pointer]:
+                - /url: /reference/react-compiler/compiling-libraries
+            - separator [ref=f16e217]
+            - heading "React DevTools" [level=3] [ref=f16e218]
+            - listitem [ref=f16e219]:
+              - link "React Performance tracks" [ref=f16e220] [cursor=pointer]:
+                - /url: /reference/dev-tools/react-performance-tracks
+            - listitem [ref=f16e222]:
+              - link [ref=f16e223] [cursor=pointer]:
+                - /url: /reference/dev-tools/react-devtools-cdt-mcp
+                - generic [ref=f16e224]:
+                  - text: React DevTools for agents
+                  - img "- This feature is available in the latest Experimental version of React" [ref=f16e225]
+            - separator [ref=f16e229]
+            - heading "eslint-plugin-react-hooks" [level=3] [ref=f16e230]
+            - listitem [ref=f16e231]:
+              - link "Lints" [ref=f16e232] [cursor=pointer]:
+                - /url: /reference/eslint-plugin-react-hooks
+            - separator [ref=f16e239]
+            - heading "Rules of React" [level=3] [ref=f16e240]
+            - listitem [ref=f16e241]:
+              - link "Overview" [ref=f16e242] [cursor=pointer]:
+                - /url: /reference/rules
+            - separator [ref=f16e249]
+            - heading "React Server Components" [level=3] [ref=f16e250]
+            - listitem [ref=f16e251]:
+              - link "Server Components" [ref=f16e252] [cursor=pointer]:
+                - /url: /reference/rsc/server-components
+            - listitem [ref=f16e254]:
+              - link "Server Functions" [ref=f16e255] [cursor=pointer]:
+                - /url: /reference/rsc/server-functions
+            - listitem [ref=f16e257]:
+              - link "Directives" [ref=f16e258] [cursor=pointer]:
+                - /url: /reference/rsc/directives
+            - separator [ref=f16e265]
+            - heading "Legacy APIs" [level=3] [ref=f16e266]
+            - listitem [ref=f16e267]:
+              - link "Legacy React APIs" [ref=f16e268] [cursor=pointer]:
+                - /url: /reference/react/legacy
+      - main [ref=f16e276]:
+        - article [ref=f16e277]:
+          - generic [ref=f16e278]:
+            - generic [ref=f16e281]:
+              - generic [ref=f16e282]:
+                - generic [ref=f16e284]:
+                  - link "API Reference" [ref=f16e286] [cursor=pointer]:
+                    - /url: /reference/react
+                  - link "Hooks" [ref=f16e291] [cursor=pointer]:
+                    - /url: /reference/react/hooks
+                - button "Copy page" [ref=f16e295] [cursor=pointer]
+              - heading "useEffect" [level=1] [ref=f16e300]
+            - generic [ref=f16e301]:
+              - generic [ref=f16e302]:
+                - generic [ref=f16e303]:
+                  - generic [ref=f16e304]:
+                    - paragraph [ref=f16e305]:
+                      - code [ref=f16e306]: useEffect
+                      - text: is a React Hook that lets you
+                      - link "synchronize a component with an external system." [ref=f16e307] [cursor=pointer]:
+                        - /url: /learn/synchronizing-with-effects
+                    - code [ref=f16e313]:
+                      - generic [ref=f16e314]: useEffect(setup, dependencies?)
+                  - list [ref=f16e315]:
+                    - listitem [ref=f16e316]:
+                      - link "Reference" [ref=f16e317] [cursor=pointer]:
+                        - /url: "#reference"
+                      - list [ref=f16e318]:
+                        - listitem [ref=f16e319]:
+                          - link [ref=f16e320] [cursor=pointer]:
+                            - /url: "#useeffect"
+                            - code [ref=f16e321]: useEffect(setup, dependencies?)
+                    - listitem [ref=f16e322]:
+                      - link "Usage" [ref=f16e323] [cursor=pointer]:
+                        - /url: "#usage"
+                      - list [ref=f16e324]:
+                        - listitem [ref=f16e325]:
+                          - link "Connecting to an external system" [ref=f16e326] [cursor=pointer]:
+                            - /url: "#connecting-to-an-external-system"
+                        - listitem [ref=f16e327]:
+                          - link "Wrapping Effects in custom Hooks" [ref=f16e328] [cursor=pointer]:
+                            - /url: "#wrapping-effects-in-custom-hooks"
+                        - listitem [ref=f16e329]:
+                          - link "Controlling a non-React widget" [ref=f16e330] [cursor=pointer]:
+                            - /url: "#controlling-a-non-react-widget"
+                        - listitem [ref=f16e331]:
+                          - link "Fetching data with Effects" [ref=f16e332] [cursor=pointer]:
+                            - /url: "#fetching-data-with-effects"
+                        - listitem [ref=f16e333]:
+                          - link "Specifying reactive dependencies" [ref=f16e334] [cursor=pointer]:
+                            - /url: "#specifying-reactive-dependencies"
+                        - listitem [ref=f16e335]:
+                          - link "Updating state based on previous state from an Effect" [ref=f16e336] [cursor=pointer]:
+                            - /url: "#updating-state-based-on-previous-state-from-an-effect"
+                        - listitem [ref=f16e337]:
+                          - link "Removing unnecessary object dependencies" [ref=f16e338] [cursor=pointer]:
+                            - /url: "#removing-unnecessary-object-dependencies"
+                        - listitem [ref=f16e339]:
+                          - link "Removing unnecessary function dependencies" [ref=f16e340] [cursor=pointer]:
+                            - /url: "#removing-unnecessary-function-dependencies"
+                        - listitem [ref=f16e341]:
+                          - link "Reading the latest props and state from an Effect" [ref=f16e342] [cursor=pointer]:
+                            - /url: "#reading-the-latest-props-and-state-from-an-effect"
+                        - listitem [ref=f16e343]:
+                          - link "Displaying different content on the server and the client" [ref=f16e344] [cursor=pointer]:
+                            - /url: "#displaying-different-content-on-the-server-and-the-client"
+                    - listitem [ref=f16e345]:
+                      - link "Troubleshooting" [ref=f16e346] [cursor=pointer]:
+                        - /url: "#troubleshooting"
+                      - list [ref=f16e347]:
+                        - listitem [ref=f16e348]:
+                          - link "My Effect runs twice when the component mounts" [ref=f16e349] [cursor=pointer]:
+                            - /url: "#my-effect-runs-twice-when-the-component-mounts"
+                        - listitem [ref=f16e350]:
+                          - link "My Effect runs after every re-render" [ref=f16e351] [cursor=pointer]:
+                            - /url: "#my-effect-runs-after-every-re-render"
+                        - listitem [ref=f16e352]:
+                          - link "My Effect keeps re-running in an infinite cycle" [ref=f16e353] [cursor=pointer]:
+                            - /url: "#my-effect-keeps-re-running-in-an-infinite-cycle"
+                        - listitem [ref=f16e354]:
+                          - link "My cleanup logic runs even though my component didn’t unmount" [ref=f16e355] [cursor=pointer]:
+                            - /url: "#my-cleanup-logic-runs-even-though-my-component-didnt-unmount"
+                        - listitem [ref=f16e356]:
+                          - link "My Effect does something visual, and I see a flicker before it runs" [ref=f16e357] [cursor=pointer]:
+                            - /url: "#my-effect-does-something-visual-and-i-see-a-flicker-before-it-runs"
+                  - separator [ref=f16e358]
+                  - heading "Reference Link for Reference" [level=2] [ref=f16e359]:
+                    - text: Reference
+                    - link "Link for Reference":
+                      - /url: "#reference"
+                  - heading [level=3] [ref=f16e360]:
+                    - code [ref=f16e361]: useEffect(setup, dependencies?)
+                    - link "Link for this heading":
+                      - /url: "#useeffect"
+                  - paragraph [ref=f16e362]:
+                    - text: Call
+                    - code [ref=f16e363]: useEffect
+                    - text: "at the top level of your component to declare an Effect:"
+                  - code [ref=f16e369]:
+                    - generic [ref=f16e370]: "import { useState, useEffect } from 'react';"
+                    - generic [ref=f16e371]: "import { createConnection } from './chat.js';"
+                    - generic [ref=f16e373]: "function ChatRoom({ roomId }) {"
+                    - generic [ref=f16e374]: const [serverUrl, setServerUrl] = useState('https://localhost:1234');
+                    - generic [ref=f16e376]: "useEffect(() => {"
+                    - generic [ref=f16e377]: const connection = createConnection(serverUrl, roomId);
+                    - generic [ref=f16e378]: connection.connect();
+                    - generic [ref=f16e379]: "return () => {"
+                    - generic [ref=f16e380]: connection.disconnect();
+                    - generic [ref=f16e381]: "};"
+                    - generic [ref=f16e382]: "}, [serverUrl, roomId]);"
+                    - generic [ref=f16e383]: // ...
+                    - generic [ref=f16e384]: "}"
+                  - paragraph [ref=f16e385]:
+                    - link "See more examples below." [ref=f16e386] [cursor=pointer]:
+                      - /url: "#usage"
+                  - heading "Parameters Link for Parameters" [level=4] [ref=f16e387]:
+                    - text: Parameters
+                    - link "Link for Parameters":
+                      - /url: "#parameters"
+                  - list [ref=f16e388]:
+                    - listitem [ref=f16e389]:
+                      - paragraph [ref=f16e390]:
+                        - code [ref=f16e391]: setup
+                        - text: ": The function with your Effect’s logic. Your setup function may also optionally return a"
+                        - emphasis [ref=f16e392]: cleanup
+                        - text: function. When your
+                        - link "component commits" [ref=f16e393] [cursor=pointer]:
+                          - /url: /learn/render-and-commit#step-3-react-commits-changes-to-the-dom
+                        - text: ", React will run your setup function. After every commit with changed dependencies, React will first run the cleanup function (if you provided it) with the old values, and then run your setup function with the new values. After your component is removed from the DOM, React will run your cleanup function."
+                    - listitem [ref=f16e394]:
+                      - paragraph [ref=f16e395]:
+                        - strong [ref=f16e396]: optional
+                        - code [ref=f16e397]: dependencies
+                        - text: ": The list of all reactive values referenced inside of the"
+                        - code [ref=f16e398]: setup
+                        - text: code. Reactive values include props, state, and all the variables and functions declared directly inside your component body. If your linter is
+                        - link "configured for React" [ref=f16e399] [cursor=pointer]:
+                          - /url: /learn/editor-setup#linting
+                        - text: ", it will verify that every reactive value is correctly specified as a dependency. The list of dependencies must have a constant number of items and be written inline like"
+                        - code [ref=f16e400]: "[dep1, dep2, dep3]"
+                        - text: . React will compare each dependency with its previous value using the
+                        - link [ref=f16e401] [cursor=pointer]:
+                          - /url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+                          - code [ref=f16e402]: Object.is
+                        - text: comparison. If you omit this argument, your Effect will re-run after every commit of the component.
+                        - link "See the difference between passing an array of dependencies, an empty array, and no dependencies at all." [ref=f16e403] [cursor=pointer]:
+                          - /url: "#examples-dependencies"
+                  - heading "Returns Link for Returns" [level=4] [ref=f16e404]:
+                    - text: Returns
+                    - link "Link for Returns":
+                      - /url: "#returns"
+                  - paragraph [ref=f16e405]:
+                    - code [ref=f16e406]: useEffect
+                    - text: returns
+                    - code [ref=f16e407]: undefined
+                    - text: .
+                  - heading "Caveats Link for Caveats" [level=4] [ref=f16e408]:
+                    - text: Caveats
+                    - link "Link for Caveats":
+                      - /url: "#caveats"
+                  - list [ref=f16e409]:
+                    - listitem [ref=f16e410]:
+                      - paragraph [ref=f16e411]:
+                        - code [ref=f16e412]: useEffect
+                        - text: is a Hook, so you can only call it
+                        - strong [ref=f16e413]: at the top level of your component
+                        - text: or your own Hooks. You can’t call it inside loops or conditions. If you need that, extract a new component and move the state into it.
+                    - listitem [ref=f16e414]:
+                      - paragraph [ref=f16e415]:
+                        - text: If you’re
+                        - strong [ref=f16e416]: not trying to synchronize with some external system,
+                        - link "you probably don’t need an Effect." [ref=f16e417] [cursor=pointer]:
+                          - /url: /learn/you-might-not-need-an-effect
+                    - listitem [ref=f16e418]:
+                      - paragraph [ref=f16e419]:
+                        - text: When Strict Mode is on, React will
+                        - strong [ref=f16e420]: run one extra development-only setup+cleanup cycle
+                        - text: before the first real setup. This is a stress-test that ensures that your cleanup logic “mirrors” your setup logic and that it stops or undoes whatever the setup is doing. If this causes a problem,
+                        - link "implement the cleanup function." [ref=f16e421] [cursor=pointer]:
+                          - /url: /learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development
+                    - listitem [ref=f16e422]:
+                      - paragraph [ref=f16e423]:
+                        - text: If some of your dependencies are objects or functions defined inside the component, there is a risk that they will
+                        - strong [ref=f16e424]: cause the Effect to re-run more often than needed.
+                        - text: To fix this, remove unnecessary
+                        - link "object" [ref=f16e425] [cursor=pointer]:
+                          - /url: "#removing-unnecessary-object-dependencies"
+                        - text: and
+                        - link "function" [ref=f16e426] [cursor=pointer]:
+                          - /url: "#removing-unnecessary-function-dependencies"
+                        - text: dependencies. You can also
+                        - link "extract state updates" [ref=f16e427] [cursor=pointer]:
+                          - /url: "#updating-state-based-on-previous-state-from-an-effect"
+                        - text: and
+                        - link "non-reactive logic" [ref=f16e428] [cursor=pointer]:
+                          - /url: "#reading-the-latest-props-and-state-from-an-effect"
+                        - text: outside of your Effect.
+                    - listitem [ref=f16e429]:
+                      - paragraph [ref=f16e430]:
+                        - text: If your Effect wasn’t caused by an interaction (like a click), React will generally let the browser
+                        - strong [ref=f16e431]: paint the updated screen first before running your Effect.
+                        - text: If your Effect is doing something visual (for example, positioning a tooltip), and the delay is noticeable (for example, it flickers), replace
+                        - code [ref=f16e432]: useEffect
+                        - text: with
+                        - link [ref=f16e433] [cursor=pointer]:
+                          - /url: /reference/react/useLayoutEffect
+                          - code [ref=f16e434]: useLayoutEffect
+                          - text: .
+                    - listitem [ref=f16e435]:
+                      - paragraph [ref=f16e436]:
+                        - text: If your Effect is caused by an interaction (like a click),
+                        - strong [ref=f16e437]: React may run your Effect before the browser paints the updated screen
+                        - text: . This ensures that the result of the Effect can be observed by the event system. Usually, this works as expected. However, if you must defer the work until after paint, such as an
+                        - code [ref=f16e438]: alert()
+                        - text: ", you can use"
+                        - code [ref=f16e439]: setTimeout
+                        - text: . See
+                        - link "reactwg/react-18/128" [ref=f16e440] [cursor=pointer]:
+                          - /url: https://github.com/reactwg/react-18/discussions/128
+                        - text: for more information.
+                    - listitem [ref=f16e441]:
+                      - paragraph [ref=f16e442]:
+                        - text: Even if your Effect was caused by an interaction (like a click),
+                        - strong [ref=f16e443]: React may allow the browser to repaint the screen before processing the state updates inside your Effect.
+                        - text: Usually, this works as expected. However, if you must block the browser from repainting the screen, you need to replace
+                        - code [ref=f16e444]: useEffect
+                        - text: with
+                        - link [ref=f16e445] [cursor=pointer]:
+                          - /url: /reference/react/useLayoutEffect
+                          - code [ref=f16e446]: useLayoutEffect
+                          - text: .
+                    - listitem [ref=f16e447]:
+                      - paragraph [ref=f16e448]:
+                        - text: Effects
+                        - strong [ref=f16e449]: only run on the client.
+                        - text: They don’t run during server rendering.
+                  - separator [ref=f16e450]
+                  - heading "Usage Link for Usage" [level=2] [ref=f16e451]:
+                    - text: Usage
+                    - link "Link for Usage":
+                      - /url: "#usage"
+                  - heading "Connecting to an external system Link for Connecting to an external system" [level=3] [ref=f16e452]:
+                    - text: Connecting to an external system
+                    - link "Link for Connecting to an external system":
+                      - /url: "#connecting-to-an-external-system"
+                  - paragraph [ref=f16e453]:
+                    - text: Some components need to stay connected to the network, some browser API, or a third-party library, while they are displayed on the page. These systems aren’t controlled by React, so they are called
+                    - emphasis [ref=f16e454]: external.
+                  - paragraph [ref=f16e455]:
+                    - text: To
+                    - link "connect your component to some external system," [ref=f16e456] [cursor=pointer]:
+                      - /url: /learn/synchronizing-with-effects
+                    - text: call
+                    - code [ref=f16e457]: useEffect
+                    - text: "at the top level of your component:"
+                  - code [ref=f16e463]:
+                    - generic [ref=f16e464]: "import { useState, useEffect } from 'react';"
+                    - generic [ref=f16e465]: "import { createConnection } from './chat.js';"
+                    - generic [ref=f16e467]: "function ChatRoom({ roomId }) {"
+                    - generic [ref=f16e468]: const [serverUrl, setServerUrl] = useState('https://localhost:1234');
+                    - generic [ref=f16e470]: "useEffect(() => {"
+                    - generic [ref=f16e471]: const connection = createConnection(serverUrl, roomId);
+                    - generic [ref=f16e472]: connection.connect();
+                    - generic [ref=f16e473]: "return () => {"
+                    - generic [ref=f16e474]: connection.disconnect();
+                    - generic [ref=f16e475]: "};"
+                    - generic [ref=f16e476]: "}, [serverUrl, roomId]);"
+                    - generic [ref=f16e477]: // ...
+                    - generic [ref=f16e478]: "}"
+                  - paragraph [ref=f16e479]:
+                    - text: You need to pass two arguments to
+                    - code [ref=f16e480]: useEffect
+                    - text: ":"
+                  - list [ref=f16e481]:
+                    - listitem [ref=f16e482]:
+                      - text: A
+                      - emphasis [ref=f16e483]: setup function
+                      - text: with setup code that connects to that system.
+                      - list [ref=f16e484]:
+                        - listitem [ref=f16e485]:
+                          - text: It should return a
+                          - emphasis [ref=f16e486]: cleanup function
+                          - text: with cleanup code that disconnects from that system.
+                    - listitem [ref=f16e487]: A list of dependencies including every value from your component used inside of those functions.
+                  - paragraph [ref=f16e488]:
+                    - strong [ref=f16e489]: "React calls your setup and cleanup functions whenever it’s necessary, which may happen multiple times:"
+                  - list [ref=f16e490]:
+                    - listitem [ref=f16e491]:
+                      - text: Your setup code runs when your component is added to the page
+                      - emphasis [ref=f16e492]: (mounts)
+                      - text: .
+                    - listitem [ref=f16e493]:
+                      - text: "After every commit of your component where the dependencies have changed:"
+                      - list [ref=f16e494]:
+                        - listitem [ref=f16e495]: First, your cleanup code runs with the old props and state.
+                        - listitem [ref=f16e496]: Then, your setup code runs with the new props and state.
+                    - listitem [ref=f16e497]:
+                      - text: Your cleanup code runs one final time after your component is removed from the page
+                      - emphasis [ref=f16e498]: (unmounts).
+                  - paragraph [ref=f16e499]:
+                    - strong [ref=f16e500]: Let’s illustrate this sequence for the example above.
+                  - paragraph [ref=f16e501]:
+                    - text: When the
+                    - code [ref=f16e502]: ChatRoom
+                    - text: component above gets added to the page, it will connect to the chat room with the initial
+                    - code [ref=f16e503]: serverUrl
+                    - text: and
+                    - code [ref=f16e504]: roomId
+                    - text: . If either
+                    - code [ref=f16e505]: serverUrl
+                    - text: or
+                    - code [ref=f16e506]: roomId
+                    - text: change as a result of a commit (say, if the user picks a different chat room in a dropdown), your Effect will
+                    - emphasis [ref=f16e507]: disconnect from the previous room, and connect to the next one.
+                    - text: When the
+                    - code [ref=f16e508]: ChatRoom
+                    - text: component is removed from the page, your Effect will disconnect one last time.
+                  - paragraph [ref=f16e509]:
+                    - strong [ref=f16e510]:
+                      - text: To
+                      - link "help you find bugs," [ref=f16e511] [cursor=pointer]:
+                        - /url: /learn/synchronizing-with-effects#step-3-add-cleanup-if-needed
+                      - text: in development React runs setup and cleanup one extra time before the setup.
+                    - text: This is a stress-test that verifies your Effect’s logic is implemented correctly. If this causes visible issues, your cleanup function is missing some logic. The cleanup function should stop or undo whatever the setup function was doing. The rule of thumb is that the user shouldn’t be able to distinguish between the setup being called once (as in production) and a
+                    - emphasis [ref=f16e512]: setup
+                    - text: →
+                    - emphasis [ref=f16e513]: cleanup
+                    - text: →
+                    - emphasis [ref=f16e514]: setup
+                    - text: sequence (as in development).
+                    - link "See common solutions." [ref=f16e515] [cursor=pointer]:
+                      - /url: /learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development
+                  - paragraph [ref=f16e516]:
+                    - strong [ref=f16e517]:
+                      - text: Try to
+                      - link "write every Effect as an independent process" [ref=f16e518] [cursor=pointer]:
+                        - /url: /learn/lifecycle-of-reactive-effects#each-effect-represents-a-separate-synchronization-process
+                      - text: and
+                      - link "think about a single setup/cleanup cycle at a time." [ref=f16e519] [cursor=pointer]:
+                        - /url: /learn/lifecycle-of-reactive-effects#thinking-from-the-effects-perspective
+                    - text: It shouldn’t matter whether your component is mounting, updating, or unmounting. When your cleanup logic correctly “mirrors” the setup logic, your Effect is resilient to running setup and cleanup as often as needed.
+                  - generic [ref=f16e520]:
+                    - heading "Note" [level=3] [ref=f16e521]
+                    - generic [ref=f16e528]:
+                      - paragraph [ref=f16e529]:
+                        - text: An Effect lets you
+                        - link "keep your component synchronized" [ref=f16e530] [cursor=pointer]:
+                          - /url: /learn/synchronizing-with-effects
+                        - text: with some external system (like a chat service). Here,
+                        - emphasis [ref=f16e531]: external system
+                        - text: "means any piece of code that’s not controlled by React, such as:"
+                      - list [ref=f16e532]:
+                        - listitem [ref=f16e533]:
+                          - text: A timer managed with
+                          - link [ref=f16e535] [cursor=pointer]:
+                            - /url: https://developer.mozilla.org/en-US/docs/Web/API/setInterval
+                            - code [ref=f16e536]: setInterval()
+                          - text: and
+                          - link [ref=f16e538] [cursor=pointer]:
+                            - /url: https://developer.mozilla.org/en-US/docs/Web/API/clearInterval
+                            - code [ref=f16e539]: clearInterval()
+                          - text: .
+                        - listitem [ref=f16e540]:
+                          - text: An event subscription using
+                          - link [ref=f16e542] [cursor=pointer]:
+                            - /url: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+                            - code [ref=f16e543]: window.addEventListener()
+                          - text: and
+                          - link [ref=f16e545] [cursor=pointer]:
+                            - /url: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener
+                            - code [ref=f16e546]: window.removeEventListener()
+                          - text: .
+                        - listitem [ref=f16e547]:
+                          - text: A third-party animation library with an API like
+                          - code [ref=f16e549]: animation.start()
+                          - text: and
+                          - code [ref=f16e551]: animation.reset()
+                          - text: .
+                      - paragraph [ref=f16e552]:
+                        - strong [ref=f16e553]:
+                          - text: If you’re not connecting to any external system,
+                          - link "you probably don’t need an Effect." [ref=f16e554] [cursor=pointer]:
+                            - /url: /learn/you-might-not-need-an-effect
+                - generic [ref=f16e556]:
+                  - generic [ref=f16e557]:
+                    - heading "Examples of connecting to an external system Link for Examples of connecting to an external system" [level=4] [ref=f16e558]:
+                      - text: Examples of connecting to an external system
+                      - link "Link for Examples of connecting to an external system":
+                        - /url: "#examples-connecting"
+                    - generic [ref=f16e559]:
+                      - generic [ref=f16e561]:
+                        - button "1. Connecting to a chat server" [ref=f16e562] [cursor=pointer]
+                        - button "2. Listening to a global browser event" [ref=f16e563] [cursor=pointer]
+                        - button "3. Triggering an animation" [ref=f16e564] [cursor=pointer]
+                        - button "4. Controlling a modal dialog" [ref=f16e565] [cursor=pointer]
+                        - button "5. Tracking element visibility" [ref=f16e566] [cursor=pointer]
+                      - generic [ref=f16e567]:
+                        - button "Scroll left" [ref=f16e568] [cursor=pointer]
+                        - button "Scroll right" [ref=f16e573] [cursor=pointer]
+                  - generic [ref=f16e578]:
+                    - generic [ref=f16e579]:
+                      - 'heading "Example 1 of 5: Connecting to a chat server Link for this heading" [level=4] [ref=f16e580]':
+                        - generic [ref=f16e581]: "Example 1 of 5:"
+                        - text: Connecting to a chat server
+                        - link "Link for this heading":
+                          - /url: "#connecting-to-a-chat-server"
+                      - paragraph [ref=f16e582]:
+                        - text: In this example, the
+                        - code [ref=f16e583]: ChatRoom
+                        - text: component uses an Effect to stay connected to an external system defined in
+                        - code [ref=f16e584]: chat.js
+                        - text: . Press “Open chat” to make the
+                        - code [ref=f16e585]: ChatRoom
+                        - text: component appear. This sandbox runs in development mode, so there is an extra connect-and-disconnect cycle, as
+                        - link "explained here." [ref=f16e586] [cursor=pointer]:
+                          - /url: /learn/synchronizing-with-effects#step-3-add-cleanup-if-needed
+                        - text: Try changing the
+                        - code [ref=f16e587]: roomId
+                        - text: and
+                        - code [ref=f16e588]: serverUrl
+                        - text: using the dropdown and the input, and see how the Effect re-connects to the chat. Press “Close chat” to see the Effect disconnect one last time.
+                      - generic [ref=f16e591]:
+                        - generic [ref=f16e592]:
+                          - tablist "Select active file" [ref=f16e598]:
+                            - tab "App.js" [selected] [ref=f16e599] [cursor=pointer]
+                            - tab "chat.js" [ref=f16e600] [cursor=pointer]
+                          - generic [ref=f16e601]:
+                            - button "Reload" [ref=f16e602] [cursor=pointer]
+                            - button "Clear" [ref=f16e606] [cursor=pointer]
+                            - link "Fork" [ref=f16e611] [cursor=pointer]:
+                              - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                        - generic [ref=f16e616]:
+                          - textbox "Code Editor for App.js" [ref=f16e619]:
+                            - generic [ref=f16e620]: "import { useState, useEffect } from 'react'; import { createConnection } from './chat.js'; function ChatRoom({ roomId }) { const [serverUrl, setServerUrl] = useState('https://localhost:1234'); useEffect(() => { const connection = createConnection(serverUrl, roomId); connection.connect(); return () => { connection.disconnect(); }; }, [roomId, serverUrl]); return ( <> <label> Server URL:{' '} <input value={serverUrl} onChange={e => setServerUrl(e.target.value)} /> </label> <h1>Welcome to the {roomId} room!</h1> </> ); } export default function App() { const [roomId, setRoomId] = useState('general'); const [show, setShow] = useState(false); return ( <> <label> Choose the chat room:{' '} <select value={roomId} onChange={e => setRoomId(e.target.value)} > <option value=\"general\">general</option> <option value=\"travel\">travel</option> <option value=\"music\">music</option> </select> </label> <button onClick={() => setShow(!show)}> {show ? 'Close chat' : 'Open chat'} </button> {show && <hr />} {show && <ChatRoom roomId={roomId} />} </> ); }"
+                          - iframe [ref=f16e623]
+                          - button "Show more" [ref=f16e624] [cursor=pointer]
+                    - button "Next Example" [ref=f16e631] [cursor=pointer]
+                - generic [ref=f16e634]:
+                  - separator [ref=f16e635]
+                  - heading "Wrapping Effects in custom Hooks Link for Wrapping Effects in custom Hooks" [level=3] [ref=f16e636]:
+                    - text: Wrapping Effects in custom Hooks
+                    - link "Link for Wrapping Effects in custom Hooks":
+                      - /url: "#wrapping-effects-in-custom-hooks"
+                  - paragraph [ref=f16e637]:
+                    - text: Effects are an
+                    - link "“escape hatch”:" [ref=f16e638] [cursor=pointer]:
+                      - /url: /learn/escape-hatches
+                    - text: you use them when you need to “step outside React” and when there is no better built-in solution for your use case. If you find yourself often needing to manually write Effects, it’s usually a sign that you need to extract some
+                    - link "custom Hooks" [ref=f16e639] [cursor=pointer]:
+                      - /url: /learn/reusing-logic-with-custom-hooks
+                    - text: for common behaviors your components rely on.
+                  - paragraph [ref=f16e640]:
+                    - text: For example, this
+                    - code [ref=f16e641]: useChatRoom
+                    - text: "custom Hook “hides” the logic of your Effect behind a more declarative API:"
+                  - code [ref=f16e647]:
+                    - generic [ref=f16e648]: "function useChatRoom({ serverUrl, roomId }) {"
+                    - generic [ref=f16e649]: "useEffect(() => {"
+                    - generic [ref=f16e650]: "const options = {"
+                    - generic [ref=f16e651]: "serverUrl: serverUrl,"
+                    - generic [ref=f16e652]: "roomId: roomId"
+                    - generic [ref=f16e653]: "};"
+                    - generic [ref=f16e654]: const connection = createConnection(options);
+                    - generic [ref=f16e655]: connection.connect();
+                    - generic [ref=f16e656]: return () => connection.disconnect();
+                    - generic [ref=f16e657]: "}, [roomId, serverUrl]);"
+                    - generic [ref=f16e658]: "}"
+                  - paragraph [ref=f16e659]: "Then you can use it from any component like this:"
+                  - code [ref=f16e665]:
+                    - generic [ref=f16e666]: "function ChatRoom({ roomId }) {"
+                    - generic [ref=f16e667]: const [serverUrl, setServerUrl] = useState('https://localhost:1234');
+                    - generic [ref=f16e669]: "useChatRoom({"
+                    - generic [ref=f16e670]: "roomId: roomId,"
+                    - generic [ref=f16e671]: "serverUrl: serverUrl"
+                    - generic [ref=f16e672]: "});"
+                    - generic [ref=f16e673]: // ...
+                  - paragraph [ref=f16e674]: There are also many excellent custom Hooks for every purpose available in the React ecosystem.
+                  - paragraph [ref=f16e675]:
+                    - link "Learn more about wrapping Effects in custom Hooks." [ref=f16e676] [cursor=pointer]:
+                      - /url: /learn/reusing-logic-with-custom-hooks
+                - generic [ref=f16e678]:
+                  - generic [ref=f16e679]:
+                    - heading "Examples of wrapping Effects in custom Hooks Link for Examples of wrapping Effects in custom Hooks" [level=4] [ref=f16e680]:
+                      - text: Examples of wrapping Effects in custom Hooks
+                      - link "Link for Examples of wrapping Effects in custom Hooks":
+                        - /url: "#examples-custom-hooks"
+                    - generic [ref=f16e681]:
+                      - generic [ref=f16e683]:
+                        - button [ref=f16e684] [cursor=pointer]:
+                          - text: 1. Custom
+                          - code [ref=f16e685]: useChatRoom
+                          - text: Hook
+                        - button [ref=f16e686] [cursor=pointer]:
+                          - text: 2. Custom
+                          - code [ref=f16e687]: useWindowListener
+                          - text: Hook
+                        - button [ref=f16e688] [cursor=pointer]:
+                          - text: 3. Custom
+                          - code [ref=f16e689]: useIntersectionObserver
+                          - text: Hook
+                      - generic [ref=f16e690]:
+                        - button "Scroll left" [ref=f16e691] [cursor=pointer]
+                        - button "Scroll right" [ref=f16e696] [cursor=pointer]
+                  - generic [ref=f16e701]:
+                    - generic [ref=f16e702]:
+                      - 'heading "Example 1 of 3: Custom useChatRoom Hook Link for this heading" [level=4] [ref=f16e703]':
+                        - generic [ref=f16e704]: "Example 1 of 3:"
+                        - text: Custom
+                        - code [ref=f16e705]: useChatRoom
+                        - text: Hook
+                        - link "Link for this heading":
+                          - /url: "#custom-usechatroom-hook"
+                      - paragraph [ref=f16e706]:
+                        - text: This example is identical to one of the
+                        - link "earlier examples," [ref=f16e707] [cursor=pointer]:
+                          - /url: "#examples-connecting"
+                        - text: but the logic is extracted to a custom Hook.
+                      - generic [ref=f16e710]:
+                        - generic [ref=f16e711]:
+                          - tablist "Select active file" [ref=f16e717]:
+                            - tab "App.js" [selected] [ref=f16e718] [cursor=pointer]
+                            - tab "useChatRoom.js" [ref=f16e719] [cursor=pointer]
+                            - tab "chat.js" [ref=f16e720] [cursor=pointer]
+                          - generic [ref=f16e721]:
+                            - button "Reload" [ref=f16e722] [cursor=pointer]
+                            - button "Clear" [ref=f16e726] [cursor=pointer]
+                            - link "Fork" [ref=f16e731] [cursor=pointer]:
+                              - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                        - generic [ref=f16e736]:
+                          - textbox "Code Editor for App.js" [ref=f16e739]:
+                            - generic [ref=f16e740]: "import { useState } from 'react'; import { useChatRoom } from './useChatRoom.js'; function ChatRoom({ roomId }) { const [serverUrl, setServerUrl] = useState('https://localhost:1234'); useChatRoom({ roomId: roomId, serverUrl: serverUrl }); return ( <> <label> Server URL:{' '} <input value={serverUrl} onChange={e => setServerUrl(e.target.value)} /> </label> <h1>Welcome to the {roomId} room!</h1> </> ); } export default function App() { const [roomId, setRoomId] = useState('general'); const [show, setShow] = useState(false); return ( <> <label> Choose the chat room:{' '} <select value={roomId} onChange={e => setRoomId(e.target.value)} > <option value=\"general\">general</option> <option value=\"travel\">travel</option> <option value=\"music\">music</option> </select> </label> <button onClick={() => setShow(!show)}> {show ? 'Close chat' : 'Open chat'} </button> {show && <hr />} {show && <ChatRoom roomId={roomId} />} </> ); }"
+                          - iframe [ref=f16e743]
+                          - button "Show more" [ref=f16e744] [cursor=pointer]
+                    - button "Next Example" [ref=f16e751] [cursor=pointer]
+                - generic [ref=f16e754]:
+                  - separator [ref=f16e755]
+                  - heading "Controlling a non-React widget Link for Controlling a non-React widget" [level=3] [ref=f16e756]:
+                    - text: Controlling a non-React widget
+                    - link "Link for Controlling a non-React widget":
+                      - /url: "#controlling-a-non-react-widget"
+                  - paragraph [ref=f16e757]: Sometimes, you want to keep an external system synchronized to some prop or state of your component.
+                  - paragraph [ref=f16e758]:
+                    - text: For example, if you have a third-party map widget or a video player component written without React, you can use an Effect to call methods on it that make its state match the current state of your React component. This Effect creates an instance of a
+                    - code [ref=f16e759]: MapWidget
+                    - text: class defined in
+                    - code [ref=f16e760]: map-widget.js
+                    - text: . When you change the
+                    - code [ref=f16e761]: zoomLevel
+                    - text: prop of the
+                    - code [ref=f16e762]: Map
+                    - text: component, the Effect calls the
+                    - code [ref=f16e763]: setZoom()
+                    - text: "on the class instance to keep it synchronized:"
+                - generic [ref=f16e766]:
+                  - generic [ref=f16e767]:
+                    - tablist "Select active file" [ref=f16e773]:
+                      - tab "App.js" [ref=f16e774] [cursor=pointer]
+                      - tab "Map.js" [selected] [ref=f16e775] [cursor=pointer]
+                      - tab "map-widget.js" [ref=f16e776] [cursor=pointer]
+                    - generic [ref=f16e777]:
+                      - button "Reload" [ref=f16e778] [cursor=pointer]
+                      - button "Clear" [ref=f16e782] [cursor=pointer]
+                      - link "Fork" [ref=f16e787] [cursor=pointer]:
+                        - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                  - generic [ref=f16e792]:
+                    - textbox "Code Editor for Map.js" [ref=f16e795]:
+                      - generic [ref=f16e796]: "import { useRef, useEffect } from 'react'; import { MapWidget } from './map-widget.js'; export default function Map({ zoomLevel }) { const containerRef = useRef(null); const mapRef = useRef(null); useEffect(() => { if (mapRef.current === null) { mapRef.current = new MapWidget(containerRef.current); } const map = mapRef.current; map.setZoom(zoomLevel); }, [zoomLevel]); return ( <div style={{ width: 200, height: 200 }} ref={containerRef} /> ); }"
+                    - iframe [ref=f16e799]
+                    - button "Show more" [ref=f16e800] [cursor=pointer]
+                - generic [ref=f16e806]:
+                  - paragraph [ref=f16e807]:
+                    - text: In this example, a cleanup function is not needed because the
+                    - code [ref=f16e808]: MapWidget
+                    - text: class manages only the DOM node that was passed to it. After the
+                    - code [ref=f16e809]: Map
+                    - text: React component is removed from the tree, both the DOM node and the
+                    - code [ref=f16e810]: MapWidget
+                    - text: class instance will be automatically garbage-collected by the browser JavaScript engine.
+                  - separator [ref=f16e811]
+                  - heading "Fetching data with Effects Link for Fetching data with Effects" [level=3] [ref=f16e812]:
+                    - text: Fetching data with Effects
+                    - link "Link for Fetching data with Effects":
+                      - /url: "#fetching-data-with-effects"
+                  - paragraph [ref=f16e813]:
+                    - text: You can use an Effect to fetch data for your component. Note that
+                    - link "if you use a framework," [ref=f16e814] [cursor=pointer]:
+                      - /url: /learn/creating-a-react-app#full-stack-frameworks
+                    - text: using your framework’s data fetching mechanism will be a lot more efficient than writing Effects manually.
+                  - paragraph [ref=f16e815]: "If you want to fetch data from an Effect manually, your code might look like this:"
+                  - code [ref=f16e821]:
+                    - generic [ref=f16e822]: "import { useState, useEffect } from 'react';"
+                    - generic [ref=f16e823]: "import { fetchBio } from './api.js';"
+                    - generic [ref=f16e825]: "export default function Page() {"
+                    - generic [ref=f16e826]: const [person, setPerson] = useState('Alice');
+                    - generic [ref=f16e827]: const [bio, setBio] = useState(null);
+                    - generic [ref=f16e829]: "useEffect(() => {"
+                    - generic [ref=f16e830]: let ignore = false;
+                    - generic [ref=f16e831]: setBio(null);
+                    - generic [ref=f16e832]: "fetchBio(person).then(result => {"
+                    - generic [ref=f16e833]: "if (!ignore) {"
+                    - generic [ref=f16e834]: setBio(result);
+                    - generic [ref=f16e835]: "}"
+                    - generic [ref=f16e836]: "});"
+                    - generic [ref=f16e837]: "return () => {"
+                    - generic [ref=f16e838]: ignore = true;
+                    - generic [ref=f16e839]: "};"
+                    - generic [ref=f16e840]: "}, [person]);"
+                    - generic [ref=f16e842]: // ...
+                  - paragraph [ref=f16e843]:
+                    - text: Note the
+                    - code [ref=f16e844]: ignore
+                    - text: variable which is initialized to
+                    - code [ref=f16e845]: "false"
+                    - text: ", and is set to"
+                    - code [ref=f16e846]: "true"
+                    - text: during cleanup. This ensures
+                    - link "your code doesn’t suffer from “race conditions”:" [ref=f16e847] [cursor=pointer]:
+                      - /url: https://maxrozen.com/race-conditions-fetching-data-react-with-useeffect
+                    - text: network responses may arrive in a different order than you sent them.
+                - generic [ref=f16e850]:
+                  - generic [ref=f16e851]:
+                    - button "App.js" [ref=f16e855] [cursor=pointer]
+                    - generic [ref=f16e857]:
+                      - button "Reload" [ref=f16e858] [cursor=pointer]
+                      - button "Clear" [ref=f16e862] [cursor=pointer]
+                      - link "Fork" [ref=f16e867] [cursor=pointer]:
+                        - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                  - generic [ref=f16e872]:
+                    - textbox "Code Editor for App.js" [ref=f16e875]:
+                      - generic [ref=f16e876]: "import { useState, useEffect } from 'react'; import { fetchBio } from './api.js'; export default function Page() { const [person, setPerson] = useState('Alice'); const [bio, setBio] = useState(null); useEffect(() => { let ignore = false; setBio(null); fetchBio(person).then(result => { if (!ignore) { setBio(result); } }); return () => { ignore = true; } }, [person]); return ( <> <select value={person} onChange={e => { setPerson(e.target.value); }}> <option value=\"Alice\">Alice</option> <option value=\"Bob\">Bob</option> <option value=\"Taylor\">Taylor</option> </select> <hr /> <p><i>{bio ?? 'Loading...'}</i></p> </> ); }"
+                    - iframe [ref=f16e879]
+                    - button "Show more" [ref=f16e880] [cursor=pointer]
+                - paragraph [ref=f16e887]:
+                  - text: You can also rewrite using the
+                  - link [ref=f16e888] [cursor=pointer]:
+                    - /url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+                    - code [ref=f16e889]: async
+                    - text: /
+                    - code [ref=f16e890]: await
+                  - text: "syntax, but you still need to provide a cleanup function:"
+                - generic [ref=f16e893]:
+                  - generic [ref=f16e894]:
+                    - button "App.js" [ref=f16e898] [cursor=pointer]
+                    - generic [ref=f16e900]:
+                      - button "Reload" [ref=f16e901] [cursor=pointer]
+                      - button "Clear" [ref=f16e905] [cursor=pointer]
+                      - link "Fork" [ref=f16e910] [cursor=pointer]:
+                        - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                  - generic [ref=f16e915]:
+                    - textbox "Code Editor for App.js" [ref=f16e918]:
+                      - generic [ref=f16e919]: "import { useState, useEffect } from 'react'; import { fetchBio } from './api.js'; export default function Page() { const [person, setPerson] = useState('Alice'); const [bio, setBio] = useState(null); useEffect(() => { async function startFetching() { setBio(null); const result = await fetchBio(person); if (!ignore) { setBio(result); } } let ignore = false; startFetching(); return () => { ignore = true; } }, [person]); return ( <> <select value={person} onChange={e => { setPerson(e.target.value); }}> <option value=\"Alice\">Alice</option> <option value=\"Bob\">Bob</option> <option value=\"Taylor\">Taylor</option> </select> <hr /> <p><i>{bio ?? 'Loading...'}</i></p> </> ); }"
+                    - iframe [ref=f16e922]
+                    - button "Show more" [ref=f16e923] [cursor=pointer]
+                - generic [ref=f16e929]:
+                  - paragraph [ref=f16e930]:
+                    - text: Writing data fetching directly in Effects gets repetitive and makes it difficult to add optimizations like caching and server rendering later.
+                    - link "It’s easier to use a custom Hook—either your own or maintained by the community." [ref=f16e931] [cursor=pointer]:
+                      - /url: /learn/reusing-logic-with-custom-hooks#when-to-use-custom-hooks
+                  - group [ref=f16e932]:
+                    - generic [ref=f16e933]:
+                      - heading "Deep Dive" [level=5] [ref=f16e934]
+                      - heading "What are good alternatives to data fetching in Effects? Link for What are good alternatives to data fetching in Effects?" [level=4] [ref=f16e938]:
+                        - text: What are good alternatives to data fetching in Effects?
+                        - link "Link for What are good alternatives to data fetching in Effects?":
+                          - /url: "#what-are-good-alternatives-to-data-fetching-in-effects"
+                      - button "Show Details" [ref=f16e939] [cursor=pointer]
+                  - separator [ref=f16e945]
+                  - heading "Specifying reactive dependencies Link for Specifying reactive dependencies" [level=3] [ref=f16e946]:
+                    - text: Specifying reactive dependencies
+                    - link "Link for Specifying reactive dependencies":
+                      - /url: "#specifying-reactive-dependencies"
+                  - paragraph [ref=f16e947]:
+                    - strong [ref=f16e948]: Notice that you can’t “choose” the dependencies of your Effect.
+                    - text: "Every reactive value used by your Effect’s code must be declared as a dependency. Your Effect’s dependency list is determined by the surrounding code:"
+                  - code [ref=f16e954]:
+                    - generic [ref=f16e955]: "function ChatRoom({ roomId }) { // This is a reactive value"
+                    - generic [ref=f16e956]: const [serverUrl, setServerUrl] = useState('https://localhost:1234'); // This is a reactive value too
+                    - generic [ref=f16e958]: "useEffect(() => {"
+                    - generic [ref=f16e959]: const connection = createConnection(serverUrl, roomId); // This Effect reads these reactive values
+                    - generic [ref=f16e960]: connection.connect();
+                    - generic [ref=f16e961]: return () => connection.disconnect();
+                    - generic [ref=f16e962]: "}, [serverUrl, roomId]); // ✅ So you must specify them as dependencies of your Effect"
+                    - generic [ref=f16e963]: // ...
+                    - generic [ref=f16e964]: "}"
+                  - paragraph [ref=f16e965]:
+                    - text: If either
+                    - code [ref=f16e966]: serverUrl
+                    - text: or
+                    - code [ref=f16e967]: roomId
+                    - text: change, your Effect will reconnect to the chat using the new values.
+                  - paragraph [ref=f16e968]:
+                    - strong [ref=f16e969]:
+                      - link "Reactive values" [ref=f16e970] [cursor=pointer]:
+                        - /url: /learn/lifecycle-of-reactive-effects#effects-react-to-reactive-values
+                      - text: include props and all variables and functions declared directly inside of your component.
+                    - text: Since
+                    - code [ref=f16e971]: roomId
+                    - text: and
+                    - code [ref=f16e972]: serverUrl
+                    - text: are reactive values, you can’t remove them from the dependencies. If you try to omit them and
+                    - link "your linter is correctly configured for React," [ref=f16e973] [cursor=pointer]:
+                      - /url: /learn/editor-setup#linting
+                    - text: "the linter will flag this as a mistake you need to fix:"
+                  - code [ref=f16e979]:
+                    - generic [ref=f16e980]: "function ChatRoom({ roomId }) {"
+                    - generic [ref=f16e981]: const [serverUrl, setServerUrl] = useState('https://localhost:1234');
+                    - generic [ref=f16e983]: "useEffect(() => {"
+                    - generic [ref=f16e984]: const connection = createConnection(serverUrl, roomId);
+                    - generic [ref=f16e985]: connection.connect();
+                    - generic [ref=f16e986]: return () => connection.disconnect();
+                    - generic [ref=f16e987]: "}, []); // 🔴 React Hook useEffect has missing dependencies: 'roomId' and 'serverUrl'"
+                    - generic [ref=f16e988]: // ...
+                    - generic [ref=f16e989]: "}"
+                  - paragraph [ref=f16e990]:
+                    - strong [ref=f16e991]:
+                      - text: To remove a dependency, you need to
+                      - link [ref=f16e992] [cursor=pointer]:
+                        - /url: /learn/removing-effect-dependencies#removing-unnecessary-dependencies
+                        - text: “prove” to the linter that it
+                        - emphasis [ref=f16e993]: doesn’t need
+                        - text: to be a dependency.
+                    - text: For example, you can move
+                    - code [ref=f16e994]: serverUrl
+                    - text: "out of your component to prove that it’s not reactive and won’t change on re-renders:"
+                  - code [ref=f16e1000]:
+                    - generic [ref=f16e1001]: const serverUrl = 'https://localhost:1234'; // Not a reactive value anymore
+                    - generic [ref=f16e1003]: "function ChatRoom({ roomId }) {"
+                    - generic [ref=f16e1004]: "useEffect(() => {"
+                    - generic [ref=f16e1005]: const connection = createConnection(serverUrl, roomId);
+                    - generic [ref=f16e1006]: connection.connect();
+                    - generic [ref=f16e1007]: return () => connection.disconnect();
+                    - generic [ref=f16e1008]: "}, [roomId]); // ✅ All dependencies declared"
+                    - generic [ref=f16e1009]: // ...
+                    - generic [ref=f16e1010]: "}"
+                  - paragraph [ref=f16e1011]:
+                    - text: Now that
+                    - code [ref=f16e1012]: serverUrl
+                    - text: is not a reactive value (and can’t change on a re-render), it doesn’t need to be a dependency.
+                    - strong [ref=f16e1013]:
+                      - text: If your Effect’s code doesn’t use any reactive values, its dependency list should be empty (
+                      - code [ref=f16e1014]: "[]"
+                      - text: "):"
+                  - code [ref=f16e1020]:
+                    - generic [ref=f16e1021]: const serverUrl = 'https://localhost:1234'; // Not a reactive value anymore
+                    - generic [ref=f16e1022]: const roomId = 'music'; // Not a reactive value anymore
+                    - generic [ref=f16e1024]: "function ChatRoom() {"
+                    - generic [ref=f16e1025]: "useEffect(() => {"
+                    - generic [ref=f16e1026]: const connection = createConnection(serverUrl, roomId);
+                    - generic [ref=f16e1027]: connection.connect();
+                    - generic [ref=f16e1028]: return () => connection.disconnect();
+                    - generic [ref=f16e1029]: "}, []); // ✅ All dependencies declared"
+                    - generic [ref=f16e1030]: // ...
+                    - generic [ref=f16e1031]: "}"
+                  - paragraph [ref=f16e1032]:
+                    - link "An Effect with empty dependencies" [ref=f16e1033] [cursor=pointer]:
+                      - /url: /learn/lifecycle-of-reactive-effects#what-an-effect-with-empty-dependencies-means
+                    - text: doesn’t re-run when any of your component’s props or state change.
+                  - generic [ref=f16e1034]:
+                    - heading "Pitfall" [level=3] [ref=f16e1035]
+                    - generic [ref=f16e1040]:
+                      - paragraph [ref=f16e1041]: "If you have an existing codebase, you might have some Effects that suppress the linter like this:"
+                      - code [ref=f16e1047]:
+                        - generic [ref=f16e1048]: "useEffect(() => {"
+                        - generic [ref=f16e1049]: // ...
+                        - generic [ref=f16e1050]: "// 🔴 Avoid suppressing the linter like this:"
+                        - generic [ref=f16e1051]: // eslint-ignore-next-line react-hooks/exhaustive-deps
+                        - generic [ref=f16e1052]: "}, []);"
+                      - paragraph [ref=f16e1053]:
+                        - strong [ref=f16e1054]: When dependencies don’t match the code, there is a high risk of introducing bugs.
+                        - text: By suppressing the linter, you “lie” to React about the values your Effect depends on.
+                        - link "Instead, prove they’re unnecessary." [ref=f16e1055] [cursor=pointer]:
+                          - /url: /learn/removing-effect-dependencies#removing-unnecessary-dependencies
+                - generic [ref=f16e1057]:
+                  - generic [ref=f16e1058]:
+                    - heading "Examples of passing reactive dependencies Link for Examples of passing reactive dependencies" [level=4] [ref=f16e1059]:
+                      - text: Examples of passing reactive dependencies
+                      - link "Link for Examples of passing reactive dependencies":
+                        - /url: "#examples-dependencies"
+                    - generic [ref=f16e1060]:
+                      - generic [ref=f16e1062]:
+                        - button "1. Passing a dependency array" [ref=f16e1063] [cursor=pointer]
+                        - button "2. Passing an empty dependency array" [ref=f16e1064] [cursor=pointer]
+                        - button "3. Passing no dependency array at all" [ref=f16e1065] [cursor=pointer]
+                      - generic [ref=f16e1066]:
+                        - button "Scroll left" [ref=f16e1067] [cursor=pointer]
+                        - button "Scroll right" [ref=f16e1072] [cursor=pointer]
+                  - generic [ref=f16e1077]:
+                    - generic [ref=f16e1078]:
+                      - 'heading "Example 1 of 3: Passing a dependency array Link for this heading" [level=4] [ref=f16e1079]':
+                        - generic [ref=f16e1080]: "Example 1 of 3:"
+                        - text: Passing a dependency array
+                        - link "Link for this heading":
+                          - /url: "#passing-a-dependency-array"
+                      - paragraph [ref=f16e1081]:
+                        - text: If you specify the dependencies, your Effect runs
+                        - strong [ref=f16e1082]:
+                          - text: after the initial commit
+                          - emphasis [ref=f16e1083]: and
+                          - text: after commits with changed dependencies.
+                      - code [ref=f16e1089]:
+                        - generic [ref=f16e1090]: "useEffect(() => {"
+                        - generic [ref=f16e1091]: // ...
+                        - generic [ref=f16e1092]: "}, [a, b]); // Runs again if a or b are different"
+                      - paragraph [ref=f16e1093]:
+                        - text: In the below example,
+                        - code [ref=f16e1094]: serverUrl
+                        - text: and
+                        - code [ref=f16e1095]: roomId
+                        - text: are
+                        - link "reactive values," [ref=f16e1096] [cursor=pointer]:
+                          - /url: /learn/lifecycle-of-reactive-effects#effects-react-to-reactive-values
+                        - text: so they both must be specified as dependencies. As a result, selecting a different room in the dropdown or editing the server URL input causes the chat to re-connect. However, since
+                        - code [ref=f16e1097]: message
+                        - text: isn’t used in the Effect (and so it isn’t a dependency), editing the message doesn’t re-connect to the chat.
+                      - generic [ref=f16e1100]:
+                        - generic [ref=f16e1101]:
+                          - tablist "Select active file" [ref=f16e1107]:
+                            - tab "App.js" [selected] [ref=f16e1108] [cursor=pointer]
+                            - tab "chat.js" [ref=f16e1109] [cursor=pointer]
+                          - generic [ref=f16e1110]:
+                            - button "Reload" [ref=f16e1111] [cursor=pointer]
+                            - button "Clear" [ref=f16e1115] [cursor=pointer]
+                            - link "Fork" [ref=f16e1120] [cursor=pointer]:
+                              - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                        - generic [ref=f16e1125]:
+                          - textbox "Code Editor for App.js" [ref=f16e1128]:
+                            - generic [ref=f16e1129]: "import { useState, useEffect } from 'react'; import { createConnection } from './chat.js'; function ChatRoom({ roomId }) { const [serverUrl, setServerUrl] = useState('https://localhost:1234'); const [message, setMessage] = useState(''); useEffect(() => { const connection = createConnection(serverUrl, roomId); connection.connect(); return () => { connection.disconnect(); }; }, [serverUrl, roomId]); return ( <> <label> Server URL:{' '} <input value={serverUrl} onChange={e => setServerUrl(e.target.value)} /> </label> <h1>Welcome to the {roomId} room!</h1> <label> Your message:{' '} <input value={message} onChange={e => setMessage(e.target.value)} /> </label> </> ); } export default function App() { const [show, setShow] = useState(false); const [roomId, setRoomId] = useState('general'); return ( <> <label> Choose the chat room:{' '} <select value={roomId} onChange={e => setRoomId(e.target.value)} > <option value=\"general\">general</option> <option value=\"travel\">travel</option> <option value=\"music\">music</option> </select> <button onClick={() => setShow(!show)}> {show ? 'Close chat' : 'Open chat'} </button> </label> {show && <hr />} {show && <ChatRoom roomId={roomId}/>} </> ); }"
+                          - iframe [ref=f16e1132]
+                          - button "Show more" [ref=f16e1133] [cursor=pointer]
+                    - button "Next Example" [ref=f16e1140] [cursor=pointer]
+                - generic [ref=f16e1143]:
+                  - separator [ref=f16e1144]
+                  - heading "Updating state based on previous state from an Effect Link for Updating state based on previous state from an Effect" [level=3] [ref=f16e1145]:
+                    - text: Updating state based on previous state from an Effect
+                    - link "Link for Updating state based on previous state from an Effect":
+                      - /url: "#updating-state-based-on-previous-state-from-an-effect"
+                  - paragraph [ref=f16e1146]: "When you want to update state based on previous state from an Effect, you might run into a problem:"
+                  - code [ref=f16e1152]:
+                    - generic [ref=f16e1153]: "function Counter() {"
+                    - generic [ref=f16e1154]: const [count, setCount] = useState(0);
+                    - generic [ref=f16e1156]: "useEffect(() => {"
+                    - generic [ref=f16e1157]: "const intervalId = setInterval(() => {"
+                    - generic [ref=f16e1158]: setCount(count + 1); // You want to increment the counter every second...
+                    - generic [ref=f16e1159]: "}, 1000)"
+                    - generic [ref=f16e1160]: return () => clearInterval(intervalId);
+                    - generic [ref=f16e1161]: "}, [count]); // 🚩 ... but specifying `count` as a dependency always resets the interval."
+                    - generic [ref=f16e1162]: // ...
+                    - generic [ref=f16e1163]: "}"
+                  - paragraph [ref=f16e1164]:
+                    - text: Since
+                    - code [ref=f16e1165]: count
+                    - text: is a reactive value, it must be specified in the list of dependencies. However, that causes the Effect to cleanup and setup again every time the
+                    - code [ref=f16e1166]: count
+                    - text: changes. This is not ideal.
+                  - paragraph [ref=f16e1167]:
+                    - text: To fix this,
+                    - link [ref=f16e1168] [cursor=pointer]:
+                      - /url: /reference/react/useState#updating-state-based-on-the-previous-state
+                      - text: pass the
+                      - code [ref=f16e1169]: c => c + 1
+                      - text: state updater
+                    - text: to
+                    - code [ref=f16e1170]: setCount
+                    - text: ":"
+                - generic [ref=f16e1173]:
+                  - generic [ref=f16e1174]:
+                    - button "App.js" [ref=f16e1178] [cursor=pointer]
+                    - generic [ref=f16e1180]:
+                      - button "Download" [ref=f16e1181] [cursor=pointer]
+                      - button "Reload" [ref=f16e1185] [cursor=pointer]
+                      - button "Clear" [ref=f16e1189] [cursor=pointer]
+                      - link "Fork" [ref=f16e1194] [cursor=pointer]:
+                        - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                  - generic [ref=f16e1199]:
+                    - textbox "Code Editor for App.js" [ref=f16e1202]:
+                      - generic [ref=f16e1203]: "import { useState, useEffect } from 'react'; export default function Counter() { const [count, setCount] = useState(0); useEffect(() => { const intervalId = setInterval(() => { setCount(c => c + 1); // ✅ Pass a state updater }, 1000); return () => clearInterval(intervalId); }, []); // ✅ Now count is not a dependency return <h1>{count}</h1>; }"
+                    - iframe [ref=f16e1206]
+                - generic [ref=f16e1207]:
+                  - paragraph [ref=f16e1208]:
+                    - text: Now that you’re passing
+                    - code [ref=f16e1209]: c => c + 1
+                    - text: instead of
+                    - code [ref=f16e1210]: count + 1
+                    - text: ","
+                    - link [ref=f16e1211] [cursor=pointer]:
+                      - /url: /learn/removing-effect-dependencies#are-you-reading-some-state-to-calculate-the-next-state
+                      - text: your Effect no longer needs to depend on
+                      - code [ref=f16e1212]: count
+                      - text: .
+                    - text: As a result of this fix, it won’t need to cleanup and setup the interval again every time the
+                    - code [ref=f16e1213]: count
+                    - text: changes.
+                  - separator [ref=f16e1214]
+                  - heading "Removing unnecessary object dependencies Link for Removing unnecessary object dependencies" [level=3] [ref=f16e1215]:
+                    - text: Removing unnecessary object dependencies
+                    - link "Link for Removing unnecessary object dependencies":
+                      - /url: "#removing-unnecessary-object-dependencies"
+                  - paragraph [ref=f16e1216]:
+                    - text: If your Effect depends on an object or a function created during rendering, it might run too often. For example, this Effect re-connects after every commit because the
+                    - code [ref=f16e1217]: options
+                    - text: object is
+                    - link "different for every render:" [ref=f16e1218] [cursor=pointer]:
+                      - /url: /learn/removing-effect-dependencies#does-some-reactive-value-change-unintentionally
+                  - code [ref=f16e1224]:
+                    - generic [ref=f16e1225]: const serverUrl = 'https://localhost:1234';
+                    - generic [ref=f16e1227]: "function ChatRoom({ roomId }) {"
+                    - generic [ref=f16e1228]: const [message, setMessage] = useState('');
+                    - generic [ref=f16e1230]: "const options = { // 🚩 This object is created from scratch on every re-render"
+                    - generic [ref=f16e1231]: "serverUrl: serverUrl,"
+                    - generic [ref=f16e1232]: "roomId: roomId"
+                    - generic [ref=f16e1233]: "};"
+                    - generic [ref=f16e1235]: "useEffect(() => {"
+                    - generic [ref=f16e1236]: const connection = createConnection(options); // It's used inside the Effect
+                    - generic [ref=f16e1237]: connection.connect();
+                    - generic [ref=f16e1238]: return () => connection.disconnect();
+                    - generic [ref=f16e1239]: "}, [options]); // 🚩 As a result, these dependencies are always different on a commit"
+                    - generic [ref=f16e1240]: // ...
+                  - paragraph [ref=f16e1241]: "Avoid using an object created during rendering as a dependency. Instead, create the object inside the Effect:"
+                - generic [ref=f16e1244]:
+                  - generic [ref=f16e1245]:
+                    - tablist "Select active file" [ref=f16e1251]:
+                      - tab "App.js" [selected] [ref=f16e1252] [cursor=pointer]
+                      - tab "chat.js" [ref=f16e1253] [cursor=pointer]
+                    - generic [ref=f16e1254]:
+                      - button "Reload" [ref=f16e1255] [cursor=pointer]
+                      - button "Clear" [ref=f16e1259] [cursor=pointer]
+                      - link "Fork" [ref=f16e1264] [cursor=pointer]:
+                        - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                  - generic [ref=f16e1269]:
+                    - textbox "Code Editor for App.js" [ref=f16e1272]:
+                      - generic [ref=f16e1273]: "import { useState, useEffect } from 'react'; import { createConnection } from './chat.js'; const serverUrl = 'https://localhost:1234'; function ChatRoom({ roomId }) { const [message, setMessage] = useState(''); useEffect(() => { const options = { serverUrl: serverUrl, roomId: roomId }; const connection = createConnection(options); connection.connect(); return () => connection.disconnect(); }, [roomId]); return ( <> <h1>Welcome to the {roomId} room!</h1> <input value={message} onChange={e => setMessage(e.target.value)} /> </> ); } export default function App() { const [roomId, setRoomId] = useState('general'); return ( <> <label> Choose the chat room:{' '} <select value={roomId} onChange={e => setRoomId(e.target.value)} > <option value=\"general\">general</option> <option value=\"travel\">travel</option> <option value=\"music\">music</option> </select> </label> <hr /> <ChatRoom roomId={roomId} /> </> ); }"
+                    - iframe [ref=f16e1276]
+                    - button "Show more" [ref=f16e1277] [cursor=pointer]
+                - generic [ref=f16e1283]:
+                  - paragraph [ref=f16e1284]:
+                    - text: Now that you create the
+                    - code [ref=f16e1285]: options
+                    - text: object inside the Effect, the Effect itself only depends on the
+                    - code [ref=f16e1286]: roomId
+                    - text: string.
+                  - paragraph [ref=f16e1287]:
+                    - text: With this fix, typing into the input doesn’t reconnect the chat. Unlike an object which gets re-created, a string like
+                    - code [ref=f16e1288]: roomId
+                    - text: doesn’t change unless you set it to another value.
+                    - link "Read more about removing dependencies." [ref=f16e1289] [cursor=pointer]:
+                      - /url: /learn/removing-effect-dependencies
+                  - separator [ref=f16e1290]
+                  - heading "Removing unnecessary function dependencies Link for Removing unnecessary function dependencies" [level=3] [ref=f16e1291]:
+                    - text: Removing unnecessary function dependencies
+                    - link "Link for Removing unnecessary function dependencies":
+                      - /url: "#removing-unnecessary-function-dependencies"
+                  - paragraph [ref=f16e1292]:
+                    - text: If your Effect depends on an object or a function created during rendering, it might run too often. For example, this Effect re-connects after every commit because the
+                    - code [ref=f16e1293]: createOptions
+                    - text: function is
+                    - link "different for every render:" [ref=f16e1294] [cursor=pointer]:
+                      - /url: /learn/removing-effect-dependencies#does-some-reactive-value-change-unintentionally
+                  - code [ref=f16e1300]:
+                    - generic [ref=f16e1301]: "function ChatRoom({ roomId }) {"
+                    - generic [ref=f16e1302]: const [message, setMessage] = useState('');
+                    - generic [ref=f16e1304]: "function createOptions() { // 🚩 This function is created from scratch on every re-render"
+                    - generic [ref=f16e1305]: "return {"
+                    - generic [ref=f16e1306]: "serverUrl: serverUrl,"
+                    - generic [ref=f16e1307]: "roomId: roomId"
+                    - generic [ref=f16e1308]: "};"
+                    - generic [ref=f16e1309]: "}"
+                    - generic [ref=f16e1311]: "useEffect(() => {"
+                    - generic [ref=f16e1312]: const options = createOptions(); // It's used inside the Effect
+                    - generic [ref=f16e1313]: const connection = createConnection(options);
+                    - generic [ref=f16e1314]: connection.connect();
+                    - generic [ref=f16e1315]: return () => connection.disconnect();
+                    - generic [ref=f16e1316]: "}, [createOptions]); // 🚩 As a result, these dependencies are always different on a commit"
+                    - generic [ref=f16e1317]: // ...
+                  - paragraph [ref=f16e1318]: By itself, creating a function from scratch on every re-render is not a problem. You don’t need to optimize that. However, if you use it as a dependency of your Effect, it will cause your Effect to re-run after every commit.
+                  - paragraph [ref=f16e1319]: "Avoid using a function created during rendering as a dependency. Instead, declare it inside the Effect:"
+                - generic [ref=f16e1322]:
+                  - generic [ref=f16e1323]:
+                    - tablist "Select active file" [ref=f16e1329]:
+                      - tab "App.js" [selected] [ref=f16e1330] [cursor=pointer]
+                      - tab "chat.js" [ref=f16e1331] [cursor=pointer]
+                    - generic [ref=f16e1332]:
+                      - button "Reload" [ref=f16e1333] [cursor=pointer]
+                      - button "Clear" [ref=f16e1337] [cursor=pointer]
+                      - link "Fork" [ref=f16e1342] [cursor=pointer]:
+                        - /url: https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app
+                  - generic [ref=f16e1347]:
+                    - textbox "Code Editor for App.js" [ref=f16e1350]:
+                      - generic [ref=f16e1351]: "import { useState, useEffect } from 'react'; import { createConnection } from './chat.js'; const serverUrl = 'https://localhost:1234'; function ChatRoom({ roomId }) { const [message, setMessage] = useState(''); useEffect(() => { function createOptions() { return { serverUrl: serverUrl, roomId: roomId }; } const options = createOptions(); const connection = createConnection(options); connection.connect(); return () => connection.disconnect(); }, [roomId]); return ( <> <h1>Welcome to the {roomId} room!</h1> <input value={message} onChange={e => setMessage(e.target.value)} /> </> ); } export default function App() { const [roomId, setRoomId] = useState('general'); return ( <> <label> Choose the chat room:{' '} <select value={roomId} onChange={e => setRoomId(e.target.value)} > <option value=\"general\">general</option> <option value=\"travel\">travel</option> <option value=\"music\">music</option> </select> </label> <hr /> <ChatRoom roomId={roomId} /> </> ); }"
+                    - iframe [ref=f16e1354]
+                    - button "Show more" [ref=f16e1355] [cursor=pointer]
+                - generic [ref=f16e1361]:
+                  - paragraph [ref=f16e1362]:
+                    - text: Now that you define the
+                    - code [ref=f16e1363]: createOptions
+                    - text: function inside the Effect, the Effect itself only depends on the
+                    - code [ref=f16e1364]: roomId
+                    - text: string. With this fix, typing into the input doesn’t reconnect the chat. Unlike a function which gets re-created, a string like
+                    - code [ref=f16e1365]: roomId
+                    - text: doesn’t change unless you set it to another value.
+                    - link "Read more about removing dependencies." [ref=f16e1366] [cursor=pointer]:
+                      - /url: /learn/removing-effect-dependencies
+                  - separator [ref=f16e1367]
+                  - heading "Reading the latest props and state from an Effect Link for Reading the latest props and state from an Effect" [level=3] [ref=f16e1368]:
+                    - text: Reading the latest props and state from an Effect
+                    - link "Link for Reading the latest props and state from an Effect":
+                      - /url: "#reading-the-latest-props-and-state-from-an-effect"
+                  - paragraph [ref=f16e1369]: By default, when you read a reactive value from an Effect, you have to add it as a dependency. This ensures that your Effect “reacts” to every change of that value. For most dependencies, that’s the behavior you want.
+                  - paragraph [ref=f16e1370]:
+                    - strong [ref=f16e1371]:
+                      - text: However, sometimes you’ll want to read the
+                      - emphasis [ref=f16e1372]: latest
+                      - text: props and state from an Effect without “reacting” to them.
+                    - text: "For example, imagine you want to log the number of the items in the shopping cart for every page visit:"
+                  - code [ref=f16e1378]:
+                    - generic [ref=f16e1379]: "function Page({ url, shoppingCart }) {"
+                    - generic [ref=f16e1380]: "useEffect(() => {"
+                    - generic [ref=f16e1381]: logVisit(url, shoppingCart.length);
+                    - generic [ref=f16e1382]: "}, [url, shoppingCart]); // ✅ All dependencies declared"
+                    - generic [ref=f16e1383]: // ...
+                    - generic [ref=f16e1384]: "}"
+                  - paragraph [ref=f16e1385]:
+                    - strong [ref=f16e1386]:
+                      - text: What if you want to log a new page visit after every
+                      - code [ref=f16e1387]: url
+                      - text: change, but
+                      - emphasis [ref=f16e1388]: not
+                      - text: if only the
+                      - code [ref=f16e1389]: shoppingCart
+                      - text: changes?
+                    - text: You can’t exclude
+                    - code [ref=f16e1390]: shoppingCart
+                    - text: from dependencies without breaking the
+                    - link "reactivity rules." [ref=f16e1391] [cursor=pointer]:
+                      - /url: "#specifying-reactive-dependencies"
+                    - text: However, you can express that you
+                    - emphasis [ref=f16e1392]: don’t want
+                    - text: a piece of code to “react” to changes even though it is called from inside an Effect.
+                    - link [ref=f16e1393] [cursor=pointer]:
+                      - /url: /learn/separating-events-from-effects#declaring-an-effect-event
+                      - text: Declare an
+                      - emphasis [ref=f16e1394]: Effect Event
+                    - text: with the
+                    - link [ref=f16e1395] [cursor=pointer]:
+                      - /url: /reference/react/useEffectEvent
+                      - code [ref=f16e1396]: useEffectEvent
+                    - text: Hook, and move the code reading
+                    - code [ref=f16e1397]: shoppingCart
+                    - text: "inside of it:"
+                  - code [ref=f16e1403]:
+                    - generic [ref=f16e1404]: "function Page({ url, shoppingCart }) {"
+                    - generic [ref=f16e1405]: "const onVisit = useEffectEvent(visitedUrl => {"
+                    - generic [ref=f16e1406]: logVisit(visitedUrl, shoppingCart.length)
+                    - generic [ref=f16e1407]: "});"
+                    - generic [ref=f16e1409]: "useEffect(() => {"
+                    - generic [ref=f16e1410]: onVisit(url);
+                    - generic [ref=f16e1411]: "}, [url]); // ✅ All dependencies declared"
+                    - generic [ref=f16e1412]: // ...
+                    - generic [ref=f16e1413]: "}"
+                  - paragraph [ref=f16e1414]:
+                    - strong [ref=f16e1415]: Effect Events are not reactive and must always be omitted from dependencies of your Effect.
+                    - text: This is what lets you put non-reactive code (where you can read the latest value of some props and state) inside of them. By reading
+                    - code [ref=f16e1416]: shoppingCart
+                    - text: inside of
+                    - code [ref=f16e1417]: onVisit
+                    - text: ", you ensure that"
+                    - code [ref=f16e1418]: shoppingCart
+                    - text: won’t re-run your Effect.
+                  - paragraph [ref=f16e1419]:
+                    - link "Read more about how Effect Events let you separate reactive and non-reactive code." [ref=f16e1420] [cursor=pointer]:
+                      - /url: /learn/separating-events-from-effects#reading-latest-props-and-state-with-effect-events
+                  - separator [ref=f16e1421]
+                  - heading "Displaying different content on the server and the client Link for Displaying different content on the server and the client" [level=3] [ref=f16e1422]:
+                    - text: Displaying different content on the server and the client
+                    - link "Link for Displaying different content on the server and the client":
+                      - /url: "#displaying-different-content-on-the-server-and-the-client"
+                  - paragraph [ref=f16e1423]:
+                    - text: If your app uses server rendering (either
+                    - link "directly" [ref=f16e1424] [cursor=pointer]:
+                      - /url: /reference/react-dom/server
+                    - text: or via a
+                    - link "framework" [ref=f16e1425] [cursor=pointer]:
+                      - /url: /learn/creating-a-react-app#full-stack-frameworks
+                    - text: ), your component will render in two different environments. On the server, it will render to produce the initial HTML. On the client, React will run the rendering code again so that it can attach your event handlers to that HTML. This is why, for
+                    - link "hydration" [ref=f16e1426] [cursor=pointer]:
+                      - /url: /reference/react-dom/client/hydrateRoot#hydrating-server-rendered-html
+                    - text: to work, your initial render output must be identical on the client and the server.
+                  - paragraph [ref=f16e1427]:
+                    - text: In rare cases, you might need to display different content on the client. For example, if your app reads some data from
+                    - link [ref=f16e1428] [cursor=pointer]:
+                      - /url: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+                      - code [ref=f16e1429]: localStorage
+                    - text: ", it can’t possibly do that on the server. Here is how you could implement this:"
+                  - code [ref=f16e1435]:
+                    - generic [ref=f16e1436]: "function MyComponent() {"
+                    - generic [ref=f16e1437]: const [didMount, setDidMount] = useState(false);
+                    - generic [ref=f16e1439]: "useEffect(() => {"
+                    - generic [ref=f16e1440]: setDidMount(true);
+                    - generic [ref=f16e1441]: "}, []);"
+                    - generic [ref=f16e1443]: "if (didMount) {"
+                    - generic [ref=f16e1444]: // ... return client-only JSX ...
+                    - generic [ref=f16e1445]: "} else {"
+                    - generic [ref=f16e1446]: // ... return initial JSX ...
+                    - generic [ref=f16e1447]: "}"
+                    - generic [ref=f16e1448]: "}"
+                  - paragraph [ref=f16e1449]:
+                    - text: While the app is loading, the user will see the initial render output. Then, when it’s loaded and hydrated, your Effect will run and set
+                    - code [ref=f16e1450]: didMount
+                    - text: to
+                    - code [ref=f16e1451]: "true"
+                    - text: ", triggering a re-render. This will switch to the client-only render output. Effects don’t run on the server, so this is why"
+                    - code [ref=f16e1452]: didMount
+                    - text: was
+                    - code [ref=f16e1453]: "false"
+                    - text: during the initial server render.
+                  - paragraph [ref=f16e1454]: Use this pattern sparingly. Keep in mind that users with a slow connection will see the initial content for quite a bit of time—potentially, many seconds—so you don’t want to make jarring changes to your component’s appearance. In many cases, you can avoid the need for this by conditionally showing different things with CSS.
+                  - separator [ref=f16e1455]
+                  - heading "Troubleshooting Link for Troubleshooting" [level=2] [ref=f16e1456]:
+                    - text: Troubleshooting
+                    - link "Link for Troubleshooting":
+                      - /url: "#troubleshooting"
+                  - heading "My Effect runs twice when the component mounts Link for My Effect runs twice when the component mounts" [level=3] [ref=f16e1457]:
+                    - text: My Effect runs twice when the component mounts
+                    - link "Link for My Effect runs twice when the component mounts":
+                      - /url: "#my-effect-runs-twice-when-the-component-mounts"
+                  - paragraph [ref=f16e1458]: When Strict Mode is on, in development, React runs setup and cleanup one extra time before the actual setup.
+                  - paragraph [ref=f16e1459]: This is a stress-test that verifies your Effect’s logic is implemented correctly. If this causes visible issues, your cleanup function is missing some logic. The cleanup function should stop or undo whatever the setup function was doing. The rule of thumb is that the user shouldn’t be able to distinguish between the setup being called once (as in production) and a setup → cleanup → setup sequence (as in development).
+                  - paragraph [ref=f16e1460]:
+                    - text: Read more about
+                    - link "how this helps find bugs" [ref=f16e1461] [cursor=pointer]:
+                      - /url: /learn/synchronizing-with-effects#step-3-add-cleanup-if-needed
+                    - text: and
+                    - link "how to fix your logic." [ref=f16e1462] [cursor=pointer]:
+                      - /url: /learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development
+                  - separator [ref=f16e1463]
+                  - heading "My Effect runs after every re-render Link for My Effect runs after every re-render" [level=3] [ref=f16e1464]:
+                    - text: My Effect runs after every re-render
+                    - link "Link for My Effect runs after every re-render":
+                      - /url: "#my-effect-runs-after-every-re-render"
+                  - paragraph [ref=f16e1465]: "First, check that you haven’t forgotten to specify the dependency array:"
+                  - code [ref=f16e1471]:
+                    - generic [ref=f16e1472]: "useEffect(() => {"
+                    - generic [ref=f16e1473]: // ...
+                    - generic [ref=f16e1474]: "}); // 🚩 No dependency array: re-runs after every commit!"
+                  - paragraph [ref=f16e1475]: If you’ve specified the dependency array but your Effect still re-runs in a loop, it’s because one of your dependencies is different on every re-render.
+                  - paragraph [ref=f16e1476]: "You can debug this problem by manually logging your dependencies to the console:"
+                  - code [ref=f16e1482]:
+                    - generic [ref=f16e1483]: "useEffect(() => {"
+                    - generic [ref=f16e1484]: // ..
+                    - generic [ref=f16e1485]: "}, [serverUrl, roomId]);"
+                    - generic [ref=f16e1487]: console.log([serverUrl, roomId]);
+                  - paragraph [ref=f16e1488]:
+                    - text: You can then right-click on the arrays from different re-renders in the console and select “Store as a global variable” for both of them. Assuming the first one got saved as
+                    - code [ref=f16e1489]: temp1
+                    - text: and the second one got saved as
+                    - code [ref=f16e1490]: temp2
+                    - text: ", you can then use the browser console to check whether each dependency in both arrays is the same:"
+                  - code [ref=f16e1496]:
+                    - generic [ref=f16e1497]: Object.is(temp1[0], temp2[0]); // Is the first dependency the same between the arrays?
+                    - generic [ref=f16e1498]: Object.is(temp1[1], temp2[1]); // Is the second dependency the same between the arrays?
+                    - generic [ref=f16e1499]: Object.is(temp1[2], temp2[2]); // ... and so on for every dependency ...
+                  - paragraph [ref=f16e1500]: "When you find the dependency that is different on every re-render, you can usually fix it in one of these ways:"
+                  - list [ref=f16e1501]:
+                    - listitem [ref=f16e1502]:
+                      - link "Updating state based on previous state from an Effect" [ref=f16e1503] [cursor=pointer]:
+                        - /url: "#updating-state-based-on-previous-state-from-an-effect"
+                    - listitem [ref=f16e1504]:
+                      - link "Removing unnecessary object dependencies" [ref=f16e1505] [cursor=pointer]:
+                        - /url: "#removing-unnecessary-object-dependencies"
+                    - listitem [ref=f16e1506]:
+                      - link "Removing unnecessary function dependencies" [ref=f16e1507] [cursor=pointer]:
+                        - /url: "#removing-unnecessary-function-dependencies"
+                    - listitem [ref=f16e1508]:
+                      - link "Reading the latest props and state from an Effect" [ref=f16e1509] [cursor=pointer]:
+                        - /url: "#reading-the-latest-props-and-state-from-an-effect"
+                  - paragraph [ref=f16e1510]:
+                    - text: As a last resort (if these methods didn’t help), wrap its creation with
+                    - link [ref=f16e1511] [cursor=pointer]:
+                      - /url: /reference/react/useMemo#memoizing-a-dependency-of-another-hook
+                      - code [ref=f16e1512]: useMemo
+                    - text: or
+                    - link [ref=f16e1513] [cursor=pointer]:
+                      - /url: /reference/react/useCallback#preventing-an-effect-from-firing-too-often
+                      - code [ref=f16e1514]: useCallback
+                    - text: (for functions).
+                  - separator [ref=f16e1515]
+                  - heading "My Effect keeps re-running in an infinite cycle Link for My Effect keeps re-running in an infinite cycle" [level=3] [ref=f16e1516]:
+                    - text: My Effect keeps re-running in an infinite cycle
+                    - link "Link for My Effect keeps re-running in an infinite cycle":
+                      - /url: "#my-effect-keeps-re-running-in-an-infinite-cycle"
+                  - paragraph [ref=f16e1517]: "If your Effect runs in an infinite cycle, these two things must be true:"
+                  - list [ref=f16e1518]:
+                    - listitem [ref=f16e1519]: Your Effect is updating some state.
+                    - listitem [ref=f16e1520]: That state leads to a re-render, which causes the Effect’s dependencies to change.
+                  - paragraph [ref=f16e1521]: Before you start fixing the problem, ask yourself whether your Effect is connecting to some external system (like DOM, network, a third-party widget, and so on). Why does your Effect need to set state? Does it synchronize with that external system? Or are you trying to manage your application’s data flow with it?
+                  - paragraph [ref=f16e1522]:
+                    - text: If there is no external system, consider whether
+                    - link "removing the Effect altogether" [ref=f16e1523] [cursor=pointer]:
+                      - /url: /learn/you-might-not-need-an-effect
+                    - text: would simplify your logic.
+                  - paragraph [ref=f16e1524]:
+                    - text: If you’re genuinely synchronizing with some external system, think about why and under what conditions your Effect should update the state. Has something changed that affects your component’s visual output? If you need to keep track of some data that isn’t used by rendering, a
+                    - link "ref" [ref=f16e1525] [cursor=pointer]:
+                      - /url: /reference/react/useRef#referencing-a-value-with-a-ref
+                    - text: (which doesn’t trigger re-renders) might be more appropriate. Verify your Effect doesn’t update the state (and trigger re-renders) more than needed.
+                  - paragraph [ref=f16e1526]:
+                    - text: Finally, if your Effect is updating the state at the right time, but there is still a loop, it’s because that state update leads to one of the Effect’s dependencies changing.
+                    - link "Read how to debug dependency changes." [ref=f16e1527] [cursor=pointer]:
+                      - /url: /reference/react/useEffect#my-effect-runs-after-every-re-render
+                  - separator [ref=f16e1528]
+                  - heading "My cleanup logic runs even though my component didn’t unmount Link for My cleanup logic runs even though my component didn’t unmount" [level=3] [ref=f16e1529]:
+                    - text: My cleanup logic runs even though my component didn’t unmount
+                    - link "Link for My cleanup logic runs even though my component didn’t unmount":
+                      - /url: "#my-cleanup-logic-runs-even-though-my-component-didnt-unmount"
+                  - paragraph [ref=f16e1530]:
+                    - text: The cleanup function runs not only during unmount, but before every re-render with changed dependencies. Additionally, in development, React
+                    - link "runs setup+cleanup one extra time immediately after component mounts." [ref=f16e1531] [cursor=pointer]:
+                      - /url: "#my-effect-runs-twice-when-the-component-mounts"
+                  - paragraph [ref=f16e1532]: "If you have cleanup code without corresponding setup code, it’s usually a code smell:"
+                  - code [ref=f16e1538]:
+                    - generic [ref=f16e1539]: "useEffect(() => {"
+                    - generic [ref=f16e1540]: "// 🔴 Avoid: Cleanup logic without corresponding setup logic"
+                    - generic [ref=f16e1541]: "return () => {"
+                    - generic [ref=f16e1542]: doSomething();
+                    - generic [ref=f16e1543]: "};"
+                    - generic [ref=f16e1544]: "}, []);"
+                  - paragraph [ref=f16e1545]: "Your cleanup logic should be “symmetrical” to the setup logic, and should stop or undo whatever setup did:"
+                  - code [ref=f16e1551]:
+                    - generic [ref=f16e1552]: "useEffect(() => {"
+                    - generic [ref=f16e1553]: const connection = createConnection(serverUrl, roomId);
+                    - generic [ref=f16e1554]: connection.connect();
+                    - generic [ref=f16e1555]: "return () => {"
+                    - generic [ref=f16e1556]: connection.disconnect();
+                    - generic [ref=f16e1557]: "};"
+                    - generic [ref=f16e1558]: "}, [serverUrl, roomId]);"
+                  - paragraph [ref=f16e1559]:
+                    - link "Learn how the Effect lifecycle is different from the component’s lifecycle." [ref=f16e1560] [cursor=pointer]:
+                      - /url: /learn/lifecycle-of-reactive-effects#the-lifecycle-of-an-effect
+                  - separator [ref=f16e1561]
+                  - heading "My Effect does something visual, and I see a flicker before it runs Link for My Effect does something visual, and I see a flicker before it runs" [level=3] [ref=f16e1562]:
+                    - text: My Effect does something visual, and I see a flicker before it runs
+                    - link "Link for My Effect does something visual, and I see a flicker before it runs":
+                      - /url: "#my-effect-does-something-visual-and-i-see-a-flicker-before-it-runs"
+                  - paragraph [ref=f16e1563]:
+                    - text: If your Effect must block the browser from
+                    - link "painting the screen," [ref=f16e1564] [cursor=pointer]:
+                      - /url: /learn/render-and-commit#epilogue-browser-paint
+                    - text: replace
+                    - code [ref=f16e1565]: useEffect
+                    - text: with
+                    - link [ref=f16e1566] [cursor=pointer]:
+                      - /url: /reference/react/useLayoutEffect
+                      - code [ref=f16e1567]: useLayoutEffect
+                    - text: . Note that
+                    - strong [ref=f16e1568]: this shouldn’t be needed for the vast majority of Effects.
+                    - text: "You’ll only need this if it’s crucial to run your Effect before the browser paint: for example, to measure and position a tooltip before the user sees it."
+              - generic [ref=f16e1569]:
+                - link "Previous useDeferredValue" [ref=f16e1570] [cursor=pointer]:
+                  - /url: /reference/react/useDeferredValue
+                  - generic [ref=f16e1575]:
+                    - generic [ref=f16e1576]: Previous
+                    - generic [ref=f16e1577]: useDeferredValue
+                - link "Next useEffectEvent" [ref=f16e1578] [cursor=pointer]:
+                  - /url: /reference/react/useEffectEvent
+                  - generic [ref=f16e1583]:
+                    - generic [ref=f16e1584]: Next
+                    - generic [ref=f16e1585]: useEffectEvent
+        - generic [ref=f16e1586]:
+          - separator [ref=f16e1588]
+          - generic [ref=f16e1591]:
+            - generic [ref=f16e1592]:
+              - link "Meta Open Source" [ref=f16e1593] [cursor=pointer]:
+                - /url: https://opensource.fb.com/
+              - generic [ref=f16e1625]: Copyright © Meta Platforms, Inc
+              - generic [ref=f16e1626] [cursor=pointer]: uwu?
+            - generic [ref=f16e1627]:
+              - link "Learn React" [ref=f16e1629] [cursor=pointer]:
+                - /url: /learn
+              - link "Quick Start" [ref=f16e1631] [cursor=pointer]:
+                - /url: /learn
+              - link "Installation" [ref=f16e1633] [cursor=pointer]:
+                - /url: /learn/installation
+              - link "Describing the UI" [ref=f16e1635] [cursor=pointer]:
+                - /url: /learn/describing-the-ui
+              - link "Adding Interactivity" [ref=f16e1637] [cursor=pointer]:
+                - /url: /learn/adding-interactivity
+              - link "Managing State" [ref=f16e1639] [cursor=pointer]:
+                - /url: /learn/managing-state
+              - link "Escape Hatches" [ref=f16e1641] [cursor=pointer]:
+                - /url: /learn/escape-hatches
+            - generic [ref=f16e1642]:
+              - link "API Reference" [ref=f16e1644] [cursor=pointer]:
+                - /url: /reference/react
+              - link "React APIs" [ref=f16e1646] [cursor=pointer]:
+                - /url: /reference/react
+              - link "React DOM APIs" [ref=f16e1648] [cursor=pointer]:
+                - /url: /reference/react-dom
+            - generic [ref=f16e1649]:
+              - link "Community" [ref=f16e1651] [cursor=pointer]:
+                - /url: /community
+              - link "Code of Conduct" [ref=f16e1653] [cursor=pointer]:
+                - /url: https://github.com/react/react/blob/main/CODE_OF_CONDUCT.md
+              - link "Meet the Team" [ref=f16e1655] [cursor=pointer]:
+                - /url: /community/team
+              - link "Docs Contributors" [ref=f16e1657] [cursor=pointer]:
+                - /url: /community/docs-contributors
+              - link "Acknowledgements" [ref=f16e1659] [cursor=pointer]:
+                - /url: /community/acknowledgements
+            - generic [ref=f16e1660]:
+              - generic [ref=f16e1661]: More
+              - link "Blog" [ref=f16e1663] [cursor=pointer]:
+                - /url: /blog
+              - link "React Native" [ref=f16e1665] [cursor=pointer]:
+                - /url: https://reactnative.dev/
+              - link "Privacy" [ref=f16e1667] [cursor=pointer]:
+                - /url: https://opensource.facebook.com/legal/privacy
+              - link "Terms" [ref=f16e1669] [cursor=pointer]:
+                - /url: https://opensource.fb.com/legal/terms/
+              - generic [ref=f16e1670]:
+                - link "React on Facebook" [ref=f16e1671] [cursor=pointer]:
+                  - /url: https://www.facebook.com/react
+                - link "React on Twitter" [ref=f16e1675] [cursor=pointer]:
+                  - /url: https://twitter.com/reactjs
+                - link "React on Bluesky" [ref=f16e1679] [cursor=pointer]:
+                  - /url: https://bsky.app/profile/react.dev
+                  - img "Bluesky" [ref=f16e1680]
+                - link "React on Github" [ref=f16e1682] [cursor=pointer]:
+                  - /url: https://github.com/react/react
+  - alert [ref=f16e1685]
