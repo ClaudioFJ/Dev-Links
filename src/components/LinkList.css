@@ -1,0 +1,12 @@
+.link-list {
+  width: 100%;
+}
+
+.link-list__items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

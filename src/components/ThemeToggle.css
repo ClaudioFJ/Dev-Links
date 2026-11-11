@@ -1,0 +1,56 @@
+.theme-toggle {
+  position: relative;
+  width: 56px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--stroke-color);
+  border-radius: 999px;
+  background: var(--surface-color);
+  cursor: pointer;
+}
+
+.theme-toggle__knob {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--highlight-color);
+  color: var(--text-color);
+  transition: left 0.2s ease;
+}
+
+/* Modo claro: bolinha à direita */
+[data-theme='light'] .theme-toggle__knob {
+  left: calc(100% - 26px);
+}
+
+.theme-toggle__icon {
+  display: none;
+}
+
+/* Modo escuro: mostra a lua */
+[data-theme='dark'] .theme-toggle__icon--moon {
+  display: block;
+}
+
+/* Modo claro: mostra o sol */
+[data-theme='light'] .theme-toggle__icon--sun {
+  display: block;
+}
+
+/* Halo no hover e no foco (teclado) */
+.theme-toggle:hover .theme-toggle__knob,
+.theme-toggle:focus-visible .theme-toggle__knob {
+  box-shadow: 0 0 0 4px var(--highlight-color);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--text-color);
+  outline-offset: 2px;
+}
